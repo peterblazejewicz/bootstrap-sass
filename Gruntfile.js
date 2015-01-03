@@ -173,6 +173,19 @@ module.exports = function (grunt) {
         dest: 'dist/css/<%= pkg.name %>-theme.css'
       }
     },
+    
+    sass: {
+      compileCore: {
+        files: {
+          'dist/css/<%= pkg.name %>.css': 'sass/bootstrap.scss'
+        }
+      },
+      compileTheme: {
+        files: {
+          'dist/css/<%= pkg.name %>-theme.css': 'sass/theme.scss'
+        }
+      }
+    },
 
     autoprefixer: {
       options: {
@@ -349,6 +362,10 @@ module.exports = function (grunt) {
       less: {
         files: 'less/**/*.less',
         tasks: 'less'
+      },
+      sass: {
+        files: 'sass/**/*.less',
+        tasks: 'sass'
       }
     },
 
@@ -449,7 +466,8 @@ module.exports = function (grunt) {
 
   // CSS distribution task.
   grunt.registerTask('less-compile', ['less:compileCore', 'less:compileTheme']);
-  grunt.registerTask('dist-css', ['less-compile', 'autoprefixer:core', 'autoprefixer:theme', 'usebanner', 'csscomb:dist', 'cssmin:minifyCore', 'cssmin:minifyTheme']);
+  grunt.registerTask('sass-compile', ['sass:compileCore', 'sass:compileTheme']);
+  grunt.registerTask('dist-css', ['sass-compile', 'autoprefixer:core', 'autoprefixer:theme', 'usebanner', 'csscomb:dist', 'cssmin:minifyCore', 'cssmin:minifyTheme']);
 
   // Full distribution task.
   grunt.registerTask('dist', ['clean:dist', 'dist-css', 'copy:fonts', 'dist-js']);
