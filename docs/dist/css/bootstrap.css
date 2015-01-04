@@ -1,9 +1,14 @@
 /*!
+<<<<<<< HEAD
  * Bootstrap v3.3.2 (http://getbootstrap.com)
+=======
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+>>>>>>> Update docs based on Sass
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+<<<<<<< HEAD
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -13,6 +18,20 @@ html {
 body {
   margin: 0;
 }
+=======
+@charset "UTF-8";
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%; 
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+>>>>>>> Update docs based on Sass
 article,
 aside,
 details,
@@ -28,6 +47,10 @@ section,
 summary {
   display: block;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 audio,
 canvas,
 progress,
@@ -35,28 +58,53 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 audio:not([controls]) {
   display: none;
   height: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 [hidden],
 template {
   display: none;
 }
+<<<<<<< HEAD
 a {
   background-color: transparent;
 }
+=======
+
+a {
+  background-color: transparent;
+}
+
+>>>>>>> Update docs based on Sass
 a:active,
 a:hover {
   outline: 0;
 }
+<<<<<<< HEAD
 abbr[title] {
   border-bottom: 1px dotted;
 }
+=======
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+>>>>>>> Update docs based on Sass
 b,
 strong {
   font-weight: bold;
 }
+<<<<<<< HEAD
 dfn {
   font-style: italic;
 }
@@ -71,6 +119,27 @@ mark {
 small {
   font-size: 80%;
 }
+=======
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  margin: .67em 0; 
+  font-size: 2em;
+}
+
+mark {
+  color: #000; 
+  background: #ff0;
+}
+
+small {
+  font-size: 80%;
+}
+
+>>>>>>> Update docs based on Sass
 sub,
 sup {
   position: relative;
@@ -78,6 +147,7 @@ sup {
   line-height: 0;
   vertical-align: baseline;
 }
+<<<<<<< HEAD
 sup {
   top: -.5em;
 }
@@ -95,13 +165,46 @@ figure {
 }
 hr {
   height: 0;
+=======
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  height: 0; 
+>>>>>>> Update docs based on Sass
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
+<<<<<<< HEAD
 pre {
   overflow: auto;
 }
+=======
+
+pre {
+  overflow: auto;
+}
+
+>>>>>>> Update docs based on Sass
 code,
 kbd,
 pre,
@@ -109,11 +212,16 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 button,
 input,
 optgroup,
 select,
 textarea {
+<<<<<<< HEAD
   margin: 0;
   font: inherit;
   color: inherit;
@@ -121,10 +229,25 @@ textarea {
 button {
   overflow: visible;
 }
+=======
+  margin: 0; 
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  overflow: visible;
+}
+
+>>>>>>> Update docs based on Sass
 button,
 select {
   text-transform: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 button,
 html input[type="button"],
 input[type="reset"],
@@ -132,10 +255,15 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
+<<<<<<< HEAD
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
@@ -144,6 +272,19 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
+=======
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0; 
+  border: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+>>>>>>> Update docs based on Sass
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -151,20 +292,36 @@ input[type="radio"] {
           box-sizing: border-box;
   padding: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
+<<<<<<< HEAD
 input[type="search"] {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
   -webkit-appearance: textfield;
 }
+=======
+
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box; 
+  -webkit-appearance: textfield;
+}
+
+>>>>>>> Update docs based on Sass
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+<<<<<<< HEAD
 fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
@@ -184,74 +341,169 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
+=======
+
+fieldset {
+  padding: .35em .625em .75em; 
+  margin: 0 2px;
+  border: 1px solid #c0c0c0;
+}
+
+legend {
+  padding: 0; 
+  border: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-spacing: 0; 
+  border-collapse: collapse;
+}
+
+>>>>>>> Update docs based on Sass
 td,
 th {
   padding: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   *:before,
   *:after {
     color: #000 !important;
+<<<<<<< HEAD
     text-shadow: none !important;
+=======
+    text-shadow: none !important; 
+>>>>>>> Update docs based on Sass
     background: transparent !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   a,
   a:visited {
     text-decoration: underline;
   }
+<<<<<<< HEAD
   a[href]:after {
     content: " (" attr(href) ")";
   }
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+=======
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+>>>>>>> Update docs based on Sass
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   pre,
   blockquote {
     border: 1px solid #999;
 
     page-break-inside: avoid;
   }
+<<<<<<< HEAD
   thead {
     display: table-header-group;
   }
+=======
+
+  thead {
+    display: table-header-group;
+  }
+
+>>>>>>> Update docs based on Sass
   tr,
   img {
     page-break-inside: avoid;
   }
+<<<<<<< HEAD
   img {
     max-width: 100% !important;
   }
+=======
+
+  img {
+    max-width: 100% !important;
+  }
+
+>>>>>>> Update docs based on Sass
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   h2,
   h3 {
     page-break-after: avoid;
   }
+<<<<<<< HEAD
   select {
     background: #fff !important;
   }
   .navbar {
     display: none;
   }
+=======
+
+  select {
+    background: #fff !important;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+>>>>>>> Update docs based on Sass
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
+<<<<<<< HEAD
   .label {
     border: 1px solid #000;
   }
+=======
+
+  .label {
+    border: 1px solid #000;
+  }
+
+>>>>>>> Update docs based on Sass
   .table {
     border-collapse: collapse !important;
   }
@@ -259,6 +511,10 @@ th {
   .table th {
     background-color: #fff !important;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
@@ -267,8 +523,13 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
+<<<<<<< HEAD
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+=======
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+>>>>>>> Update docs based on Sass
 }
 .glyphicon {
   position: relative;
@@ -282,16 +543,29 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
 .glyphicon-asterisk:before {
   content: "\2a";
 }
 .glyphicon-plus:before {
   content: "\2b";
 }
+=======
+
+.glyphicon-asterisk:before {
+  content: "\2a";
+}
+
+.glyphicon-plus:before {
+  content: "\2b";
+}
+
+>>>>>>> Update docs based on Sass
 .glyphicon-euro:before,
 .glyphicon-eur:before {
   content: "\20ac";
 }
+<<<<<<< HEAD
 .glyphicon-minus:before {
   content: "\2212";
 }
@@ -1069,17 +1343,813 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
+=======
+
+.glyphicon-minus:before {
+  content: "\2212";
+}
+
+.glyphicon-cloud:before {
+  content: "\2601";
+}
+
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+
+.glyphicon-pencil:before {
+  content: "\270f";
+}
+
+.glyphicon-glass:before {
+  content: "\e001";
+}
+
+.glyphicon-music:before {
+  content: "\e002";
+}
+
+.glyphicon-search:before {
+  content: "\e003";
+}
+
+.glyphicon-heart:before {
+  content: "\e005";
+}
+
+.glyphicon-star:before {
+  content: "\e006";
+}
+
+.glyphicon-star-empty:before {
+  content: "\e007";
+}
+
+.glyphicon-user:before {
+  content: "\e008";
+}
+
+.glyphicon-film:before {
+  content: "\e009";
+}
+
+.glyphicon-th-large:before {
+  content: "\e010";
+}
+
+.glyphicon-th:before {
+  content: "\e011";
+}
+
+.glyphicon-th-list:before {
+  content: "\e012";
+}
+
+.glyphicon-ok:before {
+  content: "\e013";
+}
+
+.glyphicon-remove:before {
+  content: "\e014";
+}
+
+.glyphicon-zoom-in:before {
+  content: "\e015";
+}
+
+.glyphicon-zoom-out:before {
+  content: "\e016";
+}
+
+.glyphicon-off:before {
+  content: "\e017";
+}
+
+.glyphicon-signal:before {
+  content: "\e018";
+}
+
+.glyphicon-cog:before {
+  content: "\e019";
+}
+
+.glyphicon-trash:before {
+  content: "\e020";
+}
+
+.glyphicon-home:before {
+  content: "\e021";
+}
+
+.glyphicon-file:before {
+  content: "\e022";
+}
+
+.glyphicon-time:before {
+  content: "\e023";
+}
+
+.glyphicon-road:before {
+  content: "\e024";
+}
+
+.glyphicon-download-alt:before {
+  content: "\e025";
+}
+
+.glyphicon-download:before {
+  content: "\e026";
+}
+
+.glyphicon-upload:before {
+  content: "\e027";
+}
+
+.glyphicon-inbox:before {
+  content: "\e028";
+}
+
+.glyphicon-play-circle:before {
+  content: "\e029";
+}
+
+.glyphicon-repeat:before {
+  content: "\e030";
+}
+
+.glyphicon-refresh:before {
+  content: "\e031";
+}
+
+.glyphicon-list-alt:before {
+  content: "\e032";
+}
+
+.glyphicon-lock:before {
+  content: "\e033";
+}
+
+.glyphicon-flag:before {
+  content: "\e034";
+}
+
+.glyphicon-headphones:before {
+  content: "\e035";
+}
+
+.glyphicon-volume-off:before {
+  content: "\e036";
+}
+
+.glyphicon-volume-down:before {
+  content: "\e037";
+}
+
+.glyphicon-volume-up:before {
+  content: "\e038";
+}
+
+.glyphicon-qrcode:before {
+  content: "\e039";
+}
+
+.glyphicon-barcode:before {
+  content: "\e040";
+}
+
+.glyphicon-tag:before {
+  content: "\e041";
+}
+
+.glyphicon-tags:before {
+  content: "\e042";
+}
+
+.glyphicon-book:before {
+  content: "\e043";
+}
+
+.glyphicon-bookmark:before {
+  content: "\e044";
+}
+
+.glyphicon-print:before {
+  content: "\e045";
+}
+
+.glyphicon-camera:before {
+  content: "\e046";
+}
+
+.glyphicon-font:before {
+  content: "\e047";
+}
+
+.glyphicon-bold:before {
+  content: "\e048";
+}
+
+.glyphicon-italic:before {
+  content: "\e049";
+}
+
+.glyphicon-text-height:before {
+  content: "\e050";
+}
+
+.glyphicon-text-width:before {
+  content: "\e051";
+}
+
+.glyphicon-align-left:before {
+  content: "\e052";
+}
+
+.glyphicon-align-center:before {
+  content: "\e053";
+}
+
+.glyphicon-align-right:before {
+  content: "\e054";
+}
+
+.glyphicon-align-justify:before {
+  content: "\e055";
+}
+
+.glyphicon-list:before {
+  content: "\e056";
+}
+
+.glyphicon-indent-left:before {
+  content: "\e057";
+}
+
+.glyphicon-indent-right:before {
+  content: "\e058";
+}
+
+.glyphicon-facetime-video:before {
+  content: "\e059";
+}
+
+.glyphicon-picture:before {
+  content: "\e060";
+}
+
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+
+.glyphicon-adjust:before {
+  content: "\e063";
+}
+
+.glyphicon-tint:before {
+  content: "\e064";
+}
+
+.glyphicon-edit:before {
+  content: "\e065";
+}
+
+.glyphicon-share:before {
+  content: "\e066";
+}
+
+.glyphicon-check:before {
+  content: "\e067";
+}
+
+.glyphicon-move:before {
+  content: "\e068";
+}
+
+.glyphicon-step-backward:before {
+  content: "\e069";
+}
+
+.glyphicon-fast-backward:before {
+  content: "\e070";
+}
+
+.glyphicon-backward:before {
+  content: "\e071";
+}
+
+.glyphicon-play:before {
+  content: "\e072";
+}
+
+.glyphicon-pause:before {
+  content: "\e073";
+}
+
+.glyphicon-stop:before {
+  content: "\e074";
+}
+
+.glyphicon-forward:before {
+  content: "\e075";
+}
+
+.glyphicon-fast-forward:before {
+  content: "\e076";
+}
+
+.glyphicon-step-forward:before {
+  content: "\e077";
+}
+
+.glyphicon-eject:before {
+  content: "\e078";
+}
+
+.glyphicon-chevron-left:before {
+  content: "\e079";
+}
+
+.glyphicon-chevron-right:before {
+  content: "\e080";
+}
+
+.glyphicon-plus-sign:before {
+  content: "\e081";
+}
+
+.glyphicon-minus-sign:before {
+  content: "\e082";
+}
+
+.glyphicon-remove-sign:before {
+  content: "\e083";
+}
+
+.glyphicon-ok-sign:before {
+  content: "\e084";
+}
+
+.glyphicon-question-sign:before {
+  content: "\e085";
+}
+
+.glyphicon-info-sign:before {
+  content: "\e086";
+}
+
+.glyphicon-screenshot:before {
+  content: "\e087";
+}
+
+.glyphicon-remove-circle:before {
+  content: "\e088";
+}
+
+.glyphicon-ok-circle:before {
+  content: "\e089";
+}
+
+.glyphicon-ban-circle:before {
+  content: "\e090";
+}
+
+.glyphicon-arrow-left:before {
+  content: "\e091";
+}
+
+.glyphicon-arrow-right:before {
+  content: "\e092";
+}
+
+.glyphicon-arrow-up:before {
+  content: "\e093";
+}
+
+.glyphicon-arrow-down:before {
+  content: "\e094";
+}
+
+.glyphicon-share-alt:before {
+  content: "\e095";
+}
+
+.glyphicon-resize-full:before {
+  content: "\e096";
+}
+
+.glyphicon-resize-small:before {
+  content: "\e097";
+}
+
+.glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+
+.glyphicon-gift:before {
+  content: "\e102";
+}
+
+.glyphicon-leaf:before {
+  content: "\e103";
+}
+
+.glyphicon-fire:before {
+  content: "\e104";
+}
+
+.glyphicon-eye-open:before {
+  content: "\e105";
+}
+
+.glyphicon-eye-close:before {
+  content: "\e106";
+}
+
+.glyphicon-warning-sign:before {
+  content: "\e107";
+}
+
+.glyphicon-plane:before {
+  content: "\e108";
+}
+
+.glyphicon-calendar:before {
+  content: "\e109";
+}
+
+.glyphicon-random:before {
+  content: "\e110";
+}
+
+.glyphicon-comment:before {
+  content: "\e111";
+}
+
+.glyphicon-magnet:before {
+  content: "\e112";
+}
+
+.glyphicon-chevron-up:before {
+  content: "\e113";
+}
+
+.glyphicon-chevron-down:before {
+  content: "\e114";
+}
+
+.glyphicon-retweet:before {
+  content: "\e115";
+}
+
+.glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+
+.glyphicon-folder-close:before {
+  content: "\e117";
+}
+
+.glyphicon-folder-open:before {
+  content: "\e118";
+}
+
+.glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+
+.glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+
+.glyphicon-hdd:before {
+  content: "\e121";
+}
+
+.glyphicon-bullhorn:before {
+  content: "\e122";
+}
+
+.glyphicon-bell:before {
+  content: "\e123";
+}
+
+.glyphicon-certificate:before {
+  content: "\e124";
+}
+
+.glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+
+.glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+
+.glyphicon-hand-right:before {
+  content: "\e127";
+}
+
+.glyphicon-hand-left:before {
+  content: "\e128";
+}
+
+.glyphicon-hand-up:before {
+  content: "\e129";
+}
+
+.glyphicon-hand-down:before {
+  content: "\e130";
+}
+
+.glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+
+.glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+
+.glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+
+.glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+
+.glyphicon-globe:before {
+  content: "\e135";
+}
+
+.glyphicon-wrench:before {
+  content: "\e136";
+}
+
+.glyphicon-tasks:before {
+  content: "\e137";
+}
+
+.glyphicon-filter:before {
+  content: "\e138";
+}
+
+.glyphicon-briefcase:before {
+  content: "\e139";
+}
+
+.glyphicon-fullscreen:before {
+  content: "\e140";
+}
+
+.glyphicon-dashboard:before {
+  content: "\e141";
+}
+
+.glyphicon-paperclip:before {
+  content: "\e142";
+}
+
+.glyphicon-heart-empty:before {
+  content: "\e143";
+}
+
+.glyphicon-link:before {
+  content: "\e144";
+}
+
+.glyphicon-phone:before {
+  content: "\e145";
+}
+
+.glyphicon-pushpin:before {
+  content: "\e146";
+}
+
+.glyphicon-usd:before {
+  content: "\e148";
+}
+
+.glyphicon-gbp:before {
+  content: "\e149";
+}
+
+.glyphicon-sort:before {
+  content: "\e150";
+}
+
+.glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+
+.glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+
+.glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+
+.glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+
+.glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+
+.glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+
+.glyphicon-unchecked:before {
+  content: "\e157";
+}
+
+.glyphicon-expand:before {
+  content: "\e158";
+}
+
+.glyphicon-collapse-down:before {
+  content: "\e159";
+}
+
+.glyphicon-collapse-up:before {
+  content: "\e160";
+}
+
+.glyphicon-log-in:before {
+  content: "\e161";
+}
+
+.glyphicon-flash:before {
+  content: "\e162";
+}
+
+.glyphicon-log-out:before {
+  content: "\e163";
+}
+
+.glyphicon-new-window:before {
+  content: "\e164";
+}
+
+.glyphicon-record:before {
+  content: "\e165";
+}
+
+.glyphicon-save:before {
+  content: "\e166";
+}
+
+.glyphicon-open:before {
+  content: "\e167";
+}
+
+.glyphicon-saved:before {
+  content: "\e168";
+}
+
+.glyphicon-import:before {
+  content: "\e169";
+}
+
+.glyphicon-export:before {
+  content: "\e170";
+}
+
+.glyphicon-send:before {
+  content: "\e171";
+}
+
+.glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+
+.glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+
+.glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+
+.glyphicon-floppy-save:before {
+  content: "\e175";
+}
+
+.glyphicon-floppy-open:before {
+  content: "\e176";
+}
+
+.glyphicon-credit-card:before {
+  content: "\e177";
+}
+
+.glyphicon-transfer:before {
+  content: "\e178";
+}
+
+.glyphicon-cutlery:before {
+  content: "\e179";
+}
+
+.glyphicon-header:before {
+  content: "\e180";
+}
+
+.glyphicon-compressed:before {
+  content: "\e181";
+}
+
+.glyphicon-earphone:before {
+  content: "\e182";
+}
+
+.glyphicon-phone-alt:before {
+  content: "\e183";
+}
+
+.glyphicon-tower:before {
+  content: "\e184";
+}
+
+.glyphicon-stats:before {
+  content: "\e185";
+}
+
+.glyphicon-sd-video:before {
+  content: "\e186";
+}
+
+.glyphicon-hd-video:before {
+  content: "\e187";
+}
+
+.glyphicon-subtitles:before {
+  content: "\e188";
+}
+
+.glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+
+.glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+
+.glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+
+.glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+
+.glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+
+.glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+
+.glyphicon-registration-mark:before {
+  content: "\e195";
+}
+
+.glyphicon-cloud-download:before {
+  content: "\e197";
+}
+
+.glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+
+.glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+
+.glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+
+>>>>>>> Update docs based on Sass
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+<<<<<<< HEAD
 html {
   font-size: 10px;
 
@@ -1092,6 +2162,23 @@ body {
   color: #333;
   background-color: #fff;
 }
+=======
+
+html {
+  font-size: 10px;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333;
+  background-color: #fff;
+}
+
+>>>>>>> Update docs based on Sass
 input,
 button,
 select,
@@ -1100,12 +2187,20 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 a {
   color: #337ab7;
   text-decoration: none;
 }
+<<<<<<< HEAD
 a:hover,
 a:focus {
+=======
+a:hover, a:focus {
+>>>>>>> Update docs based on Sass
   color: #23527c;
   text-decoration: underline;
 }
@@ -1114,6 +2209,7 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+<<<<<<< HEAD
 figure {
   margin: 0;
 }
@@ -1125,10 +2221,23 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+=======
+
+figure {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.img-responsive {
+>>>>>>> Update docs based on Sass
   display: block;
   max-width: 100%;
   height: auto;
 }
+<<<<<<< HEAD
 .img-rounded {
   border-radius: 6px;
 }
@@ -1138,6 +2247,19 @@ img {
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
+=======
+
+.img-rounded {
+  border-radius: 6px;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto; 
+  padding: 4px;
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -1145,15 +2267,27 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
+<<<<<<< HEAD
 .img-circle {
   border-radius: 50%;
 }
+=======
+
+.img-circle {
+  border-radius: 50%;
+}
+
+>>>>>>> Update docs based on Sass
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1164,8 +2298,13 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+<<<<<<< HEAD
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
+=======
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+>>>>>>> Update docs based on Sass
   position: static;
   width: auto;
   height: auto;
@@ -1173,6 +2312,7 @@ hr {
   overflow: visible;
   clip: auto;
 }
+<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -1185,12 +2325,18 @@ h6,
 .h4,
 .h5,
 .h6 {
+=======
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+>>>>>>> Update docs based on Sass
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
 h1 small,
+<<<<<<< HEAD
 h2 small,
 h3 small,
 h4 small,
@@ -1214,20 +2360,43 @@ h6 .small,
 .h4 .small,
 .h5 .small,
 .h6 .small {
+=======
+  h1 .small, h2 small,
+  h2 .small, h3 small,
+  h3 .small, h4 small,
+  h4 .small, h5 small,
+  h5 .small, h6 small,
+  h6 .small,
+  .h1 small,
+  .h1 .small, .h2 small,
+  .h2 .small, .h3 small,
+  .h3 .small, .h4 small,
+  .h4 .small, .h5 small,
+  .h5 .small, .h6 small,
+  .h6 .small {
+>>>>>>> Update docs based on Sass
   font-weight: normal;
   line-height: 1;
   color: #777;
 }
+<<<<<<< HEAD
 h1,
 .h1,
 h2,
 .h2,
 h3,
 .h3 {
+=======
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+>>>>>>> Update docs based on Sass
   margin-top: 20px;
   margin-bottom: 10px;
 }
 h1 small,
+<<<<<<< HEAD
 .h1 small,
 h2 small,
 .h2 small,
@@ -1247,10 +2416,27 @@ h5,
 .h5,
 h6,
 .h6 {
+=======
+  h1 .small, .h1 small,
+  .h1 .small,
+  h2 small,
+  h2 .small, .h2 small,
+  .h2 .small,
+  h3 small,
+  h3 .small, .h3 small,
+  .h3 .small {
+  font-size: 65%;
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+>>>>>>> Update docs based on Sass
   margin-top: 10px;
   margin-bottom: 10px;
 }
 h4 small,
+<<<<<<< HEAD
 .h4 small,
 h5 small,
 .h5 small,
@@ -1291,6 +2477,47 @@ h6,
 p {
   margin: 0 0 10px;
 }
+=======
+  h4 .small, .h4 small,
+  .h4 .small,
+  h5 small,
+  h5 .small, .h5 small,
+  .h5 .small,
+  h6 small,
+  h6 .small, .h6 small,
+  .h6 .small {
+  font-size: 75%;
+}
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+h5, .h5 {
+  font-size: 14px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+>>>>>>> Update docs based on Sass
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1302,10 +2529,15 @@ p {
     font-size: 21px;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 small,
 .small {
   font-size: 85%;
 }
+<<<<<<< HEAD
 mark,
 .mark {
   padding: .2em;
@@ -1399,40 +2631,197 @@ a.bg-warning:hover {
 a.bg-danger:hover {
   background-color: #e4b9b9;
 }
+=======
+
+mark,
+.mark {
+  padding: .2em; 
+  background-color: #fcf8e3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-muted {
+  color: #777;
+}
+
+.text-primary {
+  color: #337ab7;
+}
+
+a.text-primary:hover {
+  color: #286090;
+}
+
+.text-success {
+  color: #3c763d;
+}
+
+a.text-success:hover {
+  color: #2b542c;
+}
+
+.text-info {
+  color: #31708f;
+}
+
+a.text-info:hover {
+  color: #245269;
+}
+
+.text-warning {
+  color: #8a6d3b;
+}
+
+a.text-warning:hover {
+  color: #66512c;
+}
+
+.text-danger {
+  color: #a94442;
+}
+
+a.text-danger:hover {
+  color: #843534;
+}
+
+.bg-primary {
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #337ab7;
+}
+
+a.bg-primary:hover {
+  background-color: #286090;
+}
+
+.bg-success {
+  background-color: #dff0d8;
+}
+
+a.bg-success:hover {
+  background-color: #c1e2b3;
+}
+
+.bg-info {
+  background-color: #d9edf7;
+}
+
+a.bg-info:hover {
+  background-color: #afd9ee;
+}
+
+.bg-warning {
+  background-color: #fcf8e3;
+}
+
+a.bg-warning:hover {
+  background-color: #f7ecb5;
+}
+
+.bg-danger {
+  background-color: #f2dede;
+}
+
+a.bg-danger:hover {
+  background-color: #e4b9b9;
+}
+
+>>>>>>> Update docs based on Sass
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
 ul ul,
+<<<<<<< HEAD
 ol ul,
 ul ol,
 ol ol {
   margin-bottom: 0;
 }
+=======
+  ul ol,
+  ol ul,
+  ol ol {
+  margin-bottom: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
+<<<<<<< HEAD
 .list-inline {
   padding-left: 0;
   margin-left: -5px;
+=======
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px; 
+>>>>>>> Update docs based on Sass
   list-style: none;
 }
 .list-inline > li {
   display: inline-block;
+<<<<<<< HEAD
   padding-right: 5px;
   padding-left: 5px;
 }
+=======
+  padding-right: 5px; 
+  padding-left: 5px;
+}
+
+>>>>>>> Update docs based on Sass
 dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
+<<<<<<< HEAD
 dt,
 dd {
   line-height: 1.42857143;
@@ -1443,6 +2832,29 @@ dt {
 dd {
   margin-left: 0;
 }
+=======
+
+dt,
+dd {
+  line-height: 1.42857;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+.dl-horizontal dd:before, .dl-horizontal dd:after {
+  display: table; 
+  content: " ";
+}
+.dl-horizontal dd:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
@@ -1457,15 +2869,27 @@ dd {
     margin-left: 180px;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #777;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
@@ -1473,6 +2897,7 @@ blockquote {
   border-left: 5px solid #eee;
 }
 blockquote p:last-child,
+<<<<<<< HEAD
 blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
@@ -1490,15 +2915,40 @@ blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
 }
+=======
+  blockquote ul:last-child,
+  blockquote ol:last-child {
+  margin-bottom: 0;
+}
+blockquote footer,
+  blockquote small,
+  blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857;
+  color: #777;
+}
+blockquote footer:before,
+    blockquote small:before,
+    blockquote .small:before {
+  content: '\2014 \00A0';
+}
+
+>>>>>>> Update docs based on Sass
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
+<<<<<<< HEAD
   text-align: right;
+=======
+  text-align: right; 
+>>>>>>> Update docs based on Sass
   border-right: 5px solid #eee;
   border-left: 0;
 }
 .blockquote-reverse footer:before,
+<<<<<<< HEAD
 blockquote.pull-right footer:before,
 .blockquote-reverse small:before,
 blockquote.pull-right small:before,
@@ -1519,12 +2969,40 @@ address {
   font-style: normal;
   line-height: 1.42857143;
 }
+=======
+  .blockquote-reverse small:before,
+  .blockquote-reverse .small:before,
+  blockquote.pull-right footer:before,
+  blockquote.pull-right small:before,
+  blockquote.pull-right .small:before {
+  content: '';
+}
+.blockquote-reverse footer:after,
+  .blockquote-reverse small:after,
+  .blockquote-reverse .small:after,
+  blockquote.pull-right footer:after,
+  blockquote.pull-right small:after,
+  blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+
+address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857;
+}
+
+>>>>>>> Update docs based on Sass
 code,
 kbd,
 pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -1532,6 +3010,10 @@ code {
   background-color: #f9f2f4;
   border-radius: 4px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 kbd {
   padding: 2px 4px;
   font-size: 90%;
@@ -1548,12 +3030,20 @@ kbd kbd {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
   font-size: 13px;
+<<<<<<< HEAD
   line-height: 1.42857143;
+=======
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
@@ -1569,16 +3059,36 @@ pre code {
   background-color: transparent;
   border-radius: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
 }
+<<<<<<< HEAD
 .container {
   padding-right: 15px;
+=======
+
+.container {
+  padding-right: 15px; 
+>>>>>>> Update docs based on Sass
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+<<<<<<< HEAD
+=======
+.container:before, .container:after {
+  display: table; 
+  content: " ";
+}
+.container:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -1594,12 +3104,19 @@ pre code {
     width: 1170px;
   }
 }
+<<<<<<< HEAD
 .container-fluid {
   padding-right: 15px;
+=======
+
+.container-fluid {
+  padding-right: 15px; 
+>>>>>>> Update docs based on Sass
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+<<<<<<< HEAD
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -1766,10 +3283,248 @@ pre code {
 .col-xs-offset-0 {
   margin-left: 0;
 }
+=======
+.container-fluid:before, .container-fluid:after {
+  display: table; 
+  content: " ";
+}
+.container-fluid:after {
+  clear: both;
+}
+
+.row {
+  margin-right: -15px; 
+  margin-left: -15px;
+}
+.row:before, .row:after {
+  display: table; 
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px; 
+  padding-left: 15px;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+.col-xs-1 {
+  width: 8.33333%;
+}
+
+.col-xs-2 {
+  width: 16.66667%;
+}
+
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-4 {
+  width: 33.33333%;
+}
+
+.col-xs-5 {
+  width: 41.66667%;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+.col-xs-7 {
+  width: 58.33333%;
+}
+
+.col-xs-8 {
+  width: 66.66667%;
+}
+
+.col-xs-9 {
+  width: 75%;
+}
+
+.col-xs-10 {
+  width: 83.33333%;
+}
+
+.col-xs-11 {
+  width: 91.66667%;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.col-xs-pull-0 {
+  right: auto;
+}
+
+.col-xs-pull-1 {
+  right: 8.33333%;
+}
+
+.col-xs-pull-2 {
+  right: 16.66667%;
+}
+
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+.col-xs-pull-4 {
+  right: 33.33333%;
+}
+
+.col-xs-pull-5 {
+  right: 41.66667%;
+}
+
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+.col-xs-pull-7 {
+  right: 58.33333%;
+}
+
+.col-xs-pull-8 {
+  right: 66.66667%;
+}
+
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+.col-xs-pull-10 {
+  right: 83.33333%;
+}
+
+.col-xs-pull-11 {
+  right: 91.66667%;
+}
+
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+.col-xs-push-0 {
+  left: auto;
+}
+
+.col-xs-push-1 {
+  left: 8.33333%;
+}
+
+.col-xs-push-2 {
+  left: 16.66667%;
+}
+
+.col-xs-push-3 {
+  left: 25%;
+}
+
+.col-xs-push-4 {
+  left: 33.33333%;
+}
+
+.col-xs-push-5 {
+  left: 41.66667%;
+}
+
+.col-xs-push-6 {
+  left: 50%;
+}
+
+.col-xs-push-7 {
+  left: 58.33333%;
+}
+
+.col-xs-push-8 {
+  left: 66.66667%;
+}
+
+.col-xs-push-9 {
+  left: 75%;
+}
+
+.col-xs-push-10 {
+  left: 83.33333%;
+}
+
+.col-xs-push-11 {
+  left: 91.66667%;
+}
+
+.col-xs-push-12 {
+  left: 100%;
+}
+
+.col-xs-offset-0 {
+  margin-left: 0;
+}
+
+.col-xs-offset-1 {
+  margin-left: 8.33333%;
+}
+
+.col-xs-offset-2 {
+  margin-left: 16.66667%;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.col-xs-offset-4 {
+  margin-left: 33.33333%;
+}
+
+.col-xs-offset-5 {
+  margin-left: 41.66667%;
+}
+
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+.col-xs-offset-7 {
+  margin-left: 58.33333%;
+}
+
+.col-xs-offset-8 {
+  margin-left: 66.66667%;
+}
+
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+.col-xs-offset-10 {
+  margin-left: 83.33333%;
+}
+
+.col-xs-offset-11 {
+  margin-left: 91.66667%;
+}
+
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
+<<<<<<< HEAD
   .col-sm-12 {
     width: 100%;
   }
@@ -1922,12 +3677,218 @@ pre code {
   }
   .col-sm-offset-0 {
     margin-left: 0;
+=======
+
+  .col-sm-1 {
+    width: 8.33333%;
+  }
+
+  .col-sm-2 {
+    width: 16.66667%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-4 {
+    width: 33.33333%;
+  }
+
+  .col-sm-5 {
+    width: 41.66667%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-7 {
+    width: 58.33333%;
+  }
+
+  .col-sm-8 {
+    width: 66.66667%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-10 {
+    width: 83.33333%;
+  }
+
+  .col-sm-11 {
+    width: 91.66667%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .col-sm-pull-0 {
+    right: auto;
+  }
+
+  .col-sm-pull-1 {
+    right: 8.33333%;
+  }
+
+  .col-sm-pull-2 {
+    right: 16.66667%;
+  }
+
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+  .col-sm-pull-4 {
+    right: 33.33333%;
+  }
+
+  .col-sm-pull-5 {
+    right: 41.66667%;
+  }
+
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+  .col-sm-pull-7 {
+    right: 58.33333%;
+  }
+
+  .col-sm-pull-8 {
+    right: 66.66667%;
+  }
+
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+  .col-sm-pull-10 {
+    right: 83.33333%;
+  }
+
+  .col-sm-pull-11 {
+    right: 91.66667%;
+  }
+
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+
+  .col-sm-push-0 {
+    left: auto;
+  }
+
+  .col-sm-push-1 {
+    left: 8.33333%;
+  }
+
+  .col-sm-push-2 {
+    left: 16.66667%;
+  }
+
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+  .col-sm-push-4 {
+    left: 33.33333%;
+  }
+
+  .col-sm-push-5 {
+    left: 41.66667%;
+  }
+
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+  .col-sm-push-7 {
+    left: 58.33333%;
+  }
+
+  .col-sm-push-8 {
+    left: 66.66667%;
+  }
+
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+  .col-sm-push-10 {
+    left: 83.33333%;
+  }
+
+  .col-sm-push-11 {
+    left: 91.66667%;
+  }
+
+  .col-sm-push-12 {
+    left: 100%;
+  }
+
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+
+  .col-sm-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  .col-sm-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  .col-sm-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  .col-sm-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  .col-sm-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  .col-sm-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  .col-sm-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  .col-sm-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  .col-sm-offset-12 {
+    margin-left: 100%;
+>>>>>>> Update docs based on Sass
   }
 }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
+<<<<<<< HEAD
   .col-md-12 {
     width: 100%;
   }
@@ -2080,12 +4041,218 @@ pre code {
   }
   .col-md-offset-0 {
     margin-left: 0;
+=======
+
+  .col-md-1 {
+    width: 8.33333%;
+  }
+
+  .col-md-2 {
+    width: 16.66667%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.33333%;
+  }
+
+  .col-md-5 {
+    width: 41.66667%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.33333%;
+  }
+
+  .col-md-8 {
+    width: 66.66667%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-10 {
+    width: 83.33333%;
+  }
+
+  .col-md-11 {
+    width: 91.66667%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  .col-md-pull-1 {
+    right: 8.33333%;
+  }
+
+  .col-md-pull-2 {
+    right: 16.66667%;
+  }
+
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  .col-md-pull-4 {
+    right: 33.33333%;
+  }
+
+  .col-md-pull-5 {
+    right: 41.66667%;
+  }
+
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  .col-md-pull-7 {
+    right: 58.33333%;
+  }
+
+  .col-md-pull-8 {
+    right: 66.66667%;
+  }
+
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  .col-md-pull-10 {
+    right: 83.33333%;
+  }
+
+  .col-md-pull-11 {
+    right: 91.66667%;
+  }
+
+  .col-md-pull-12 {
+    right: 100%;
+  }
+
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  .col-md-push-1 {
+    left: 8.33333%;
+  }
+
+  .col-md-push-2 {
+    left: 16.66667%;
+  }
+
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  .col-md-push-4 {
+    left: 33.33333%;
+  }
+
+  .col-md-push-5 {
+    left: 41.66667%;
+  }
+
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  .col-md-push-7 {
+    left: 58.33333%;
+  }
+
+  .col-md-push-8 {
+    left: 66.66667%;
+  }
+
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  .col-md-push-10 {
+    left: 83.33333%;
+  }
+
+  .col-md-push-11 {
+    left: 91.66667%;
+  }
+
+  .col-md-push-12 {
+    left: 100%;
+  }
+
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+
+  .col-md-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  .col-md-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  .col-md-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  .col-md-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  .col-md-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  .col-md-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  .col-md-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  .col-md-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  .col-md-offset-12 {
+    margin-left: 100%;
+>>>>>>> Update docs based on Sass
   }
 }
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
+<<<<<<< HEAD
   .col-lg-12 {
     width: 100%;
   }
@@ -2238,26 +4405,244 @@ pre code {
   }
   .col-lg-offset-0 {
     margin-left: 0;
+=======
+
+  .col-lg-1 {
+    width: 8.33333%;
+  }
+
+  .col-lg-2 {
+    width: 16.66667%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+
+  .col-lg-5 {
+    width: 41.66667%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33333%;
+  }
+
+  .col-lg-8 {
+    width: 66.66667%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .col-lg-10 {
+    width: 83.33333%;
+  }
+
+  .col-lg-11 {
+    width: 91.66667%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  .col-lg-pull-1 {
+    right: 8.33333%;
+  }
+
+  .col-lg-pull-2 {
+    right: 16.66667%;
+  }
+
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  .col-lg-pull-4 {
+    right: 33.33333%;
+  }
+
+  .col-lg-pull-5 {
+    right: 41.66667%;
+  }
+
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  .col-lg-pull-7 {
+    right: 58.33333%;
+  }
+
+  .col-lg-pull-8 {
+    right: 66.66667%;
+  }
+
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  .col-lg-pull-10 {
+    right: 83.33333%;
+  }
+
+  .col-lg-pull-11 {
+    right: 91.66667%;
+  }
+
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  .col-lg-push-1 {
+    left: 8.33333%;
+  }
+
+  .col-lg-push-2 {
+    left: 16.66667%;
+  }
+
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  .col-lg-push-4 {
+    left: 33.33333%;
+  }
+
+  .col-lg-push-5 {
+    left: 41.66667%;
+  }
+
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  .col-lg-push-7 {
+    left: 58.33333%;
+  }
+
+  .col-lg-push-8 {
+    left: 66.66667%;
+  }
+
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  .col-lg-push-10 {
+    left: 83.33333%;
+  }
+
+  .col-lg-push-11 {
+    left: 91.66667%;
+  }
+
+  .col-lg-push-12 {
+    left: 100%;
+  }
+
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+
+  .col-lg-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  .col-lg-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  .col-lg-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  .col-lg-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  .col-lg-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  .col-lg-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  .col-lg-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  .col-lg-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  .col-lg-offset-12 {
+    margin-left: 100%;
+>>>>>>> Update docs based on Sass
   }
 }
 table {
   background-color: transparent;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
   color: #777;
   text-align: left;
 }
+<<<<<<< HEAD
 th {
   text-align: left;
 }
+=======
+
+th {
+  text-align: left;
+}
+
+>>>>>>> Update docs based on Sass
 .table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
 }
 .table > thead > tr > th,
+<<<<<<< HEAD
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
 .table > thead > tr > td,
@@ -2265,6 +4650,15 @@ th {
 .table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
+=======
+  .table > thead > tr > td,
+  .table > tbody > tr > th,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > th,
+  .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
@@ -2273,11 +4667,19 @@ th {
   border-bottom: 2px solid #ddd;
 }
 .table > caption + thead > tr:first-child > th,
+<<<<<<< HEAD
 .table > colgroup + thead > tr:first-child > th,
 .table > thead:first-child > tr:first-child > th,
 .table > caption + thead > tr:first-child > td,
 .table > colgroup + thead > tr:first-child > td,
 .table > thead:first-child > tr:first-child > td {
+=======
+  .table > caption + thead > tr:first-child > td,
+  .table > colgroup + thead > tr:first-child > th,
+  .table > colgroup + thead > tr:first-child > td,
+  .table > thead:first-child > tr:first-child > th,
+  .table > thead:first-child > tr:first-child > td {
+>>>>>>> Update docs based on Sass
   border-top: 0;
 }
 .table > tbody + tbody {
@@ -2286,6 +4688,7 @@ th {
 .table .table {
   background-color: #fff;
 }
+<<<<<<< HEAD
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
@@ -2294,10 +4697,23 @@ th {
 .table-condensed > tfoot > tr > td {
   padding: 5px;
 }
+=======
+
+.table-condensed > thead > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > th,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > th,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+
+>>>>>>> Update docs based on Sass
 .table-bordered {
   border: 1px solid #ddd;
 }
 .table-bordered > thead > tr > th,
+<<<<<<< HEAD
 .table-bordered > tbody > tr > th,
 .table-bordered > tfoot > tr > th,
 .table-bordered > thead > tr > td,
@@ -2433,6 +4849,133 @@ table th[class*="col-"] {
 }
 .table-responsive {
   min-height: .01%;
+=======
+  .table-bordered > thead > tr > td,
+  .table-bordered > tbody > tr > th,
+  .table-bordered > tbody > tr > td,
+  .table-bordered > tfoot > tr > th,
+  .table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.table-bordered > thead > tr > th,
+  .table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+
+table col[class*="col-"] {
+  position: static;
+  display: table-column; 
+  float: none;
+}
+
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  display: table-cell; 
+  float: none;
+}
+
+.table > thead > tr > td.active,
+.table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+
+.table > thead > tr > td.success,
+.table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
+.table > tbody > tr > td.success,
+.table > tbody > tr > th.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th,
+.table > tfoot > tr > td.success,
+.table > tfoot > tr > th.success,
+.table > tfoot > tr.success > td,
+.table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+
+.table > thead > tr > td.info,
+.table > thead > tr > th.info, .table > thead > tr.info > td, .table > thead > tr.info > th,
+.table > tbody > tr > td.info,
+.table > tbody > tr > th.info,
+.table > tbody > tr.info > td,
+.table > tbody > tr.info > th,
+.table > tfoot > tr > td.info,
+.table > tfoot > tr > th.info,
+.table > tfoot > tr.info > td,
+.table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+
+.table > thead > tr > td.warning,
+.table > thead > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th,
+.table > tbody > tr > td.warning,
+.table > tbody > tr > th.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr > td.warning,
+.table > tfoot > tr > th.warning,
+.table > tfoot > tr.warning > td,
+.table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+
+.table > thead > tr > td.danger,
+.table > thead > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th,
+.table > tbody > tr > td.danger,
+.table > tbody > tr > th.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr > td.danger,
+.table > tfoot > tr > th.danger,
+.table > tfoot > tr.danger > td,
+.table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}
+
+.table-responsive {
+  min-height: .01%; 
+>>>>>>> Update docs based on Sass
   overflow-x: auto;
 }
 @media screen and (max-width: 767px) {
@@ -2447,10 +4990,17 @@ table th[class*="col-"] {
     margin-bottom: 0;
   }
   .table-responsive > .table > thead > tr > th,
+<<<<<<< HEAD
   .table-responsive > .table > tbody > tr > th,
   .table-responsive > .table > tfoot > tr > th,
   .table-responsive > .table > thead > tr > td,
   .table-responsive > .table > tbody > tr > td,
+=======
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > th,
+>>>>>>> Update docs based on Sass
   .table-responsive > .table > tfoot > tr > td {
     white-space: nowrap;
   }
@@ -2458,34 +5008,63 @@ table th[class*="col-"] {
     border: 0;
   }
   .table-responsive > .table-bordered > thead > tr > th:first-child,
+<<<<<<< HEAD
   .table-responsive > .table-bordered > tbody > tr > th:first-child,
   .table-responsive > .table-bordered > tfoot > tr > th:first-child,
   .table-responsive > .table-bordered > thead > tr > td:first-child,
   .table-responsive > .table-bordered > tbody > tr > td:first-child,
+=======
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+>>>>>>> Update docs based on Sass
   .table-responsive > .table-bordered > tfoot > tr > td:first-child {
     border-left: 0;
   }
   .table-responsive > .table-bordered > thead > tr > th:last-child,
+<<<<<<< HEAD
   .table-responsive > .table-bordered > tbody > tr > th:last-child,
   .table-responsive > .table-bordered > tfoot > tr > th:last-child,
   .table-responsive > .table-bordered > thead > tr > td:last-child,
   .table-responsive > .table-bordered > tbody > tr > td:last-child,
+=======
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+>>>>>>> Update docs based on Sass
   .table-responsive > .table-bordered > tfoot > tr > td:last-child {
     border-right: 0;
   }
   .table-responsive > .table-bordered > tbody > tr:last-child > th,
+<<<<<<< HEAD
   .table-responsive > .table-bordered > tfoot > tr:last-child > th,
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
+=======
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+>>>>>>> Update docs based on Sass
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
   }
 }
+<<<<<<< HEAD
 fieldset {
   min-width: 0;
+=======
+
+fieldset {
+  min-width: 0; 
+>>>>>>> Update docs based on Sass
   padding: 0;
   margin: 0;
   border: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 legend {
   display: block;
   width: 100%;
@@ -2497,34 +5076,62 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 input[type="search"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
 }
+<<<<<<< HEAD
 input[type="file"] {
   display: block;
 }
+=======
+
+input[type="file"] {
+  display: block;
+}
+
+>>>>>>> Update docs based on Sass
 input[type="range"] {
   display: block;
   width: 100%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 select[multiple],
 select[size] {
   height: auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -2532,20 +5139,35 @@ input[type="checkbox"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 output {
   display: block;
   padding-top: 7px;
   font-size: 14px;
+<<<<<<< HEAD
   line-height: 1.42857143;
   color: #555;
 }
+=======
+  line-height: 1.42857;
+  color: #555;
+}
+
+>>>>>>> Update docs based on Sass
 .form-control {
   display: block;
   width: 100%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
+<<<<<<< HEAD
   line-height: 1.42857143;
+=======
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   color: #555;
   background-color: #fff;
   background-image: none;
@@ -2560,8 +5182,13 @@ output {
 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
+<<<<<<< HEAD
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
           box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+=======
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+>>>>>>> Update docs based on Sass
 }
 .form-control::-moz-placeholder {
   color: #999;
@@ -2573,19 +5200,35 @@ output {
 .form-control::-webkit-input-placeholder {
   color: #999;
 }
+<<<<<<< HEAD
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
+=======
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+>>>>>>> Update docs based on Sass
   cursor: not-allowed;
   background-color: #eee;
   opacity: 1;
 }
+<<<<<<< HEAD
 textarea.form-control {
   height: auto;
 }
 input[type="search"] {
   -webkit-appearance: none;
 }
+=======
+
+textarea.form-control {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+>>>>>>> Update docs based on Sass
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"],
   input[type="time"],
@@ -2593,6 +5236,7 @@ input[type="search"] {
   input[type="month"] {
     line-height: 34px;
   }
+<<<<<<< HEAD
   input[type="date"].input-sm,
   input[type="time"].input-sm,
   input[type="datetime-local"].input-sm,
@@ -2611,12 +5255,52 @@ input[type="search"] {
   .input-group-lg input[type="time"],
   .input-group-lg input[type="datetime-local"],
   .input-group-lg input[type="month"] {
+=======
+
+  input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
+  .input-group-sm > input[type="date"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="date"].btn,
+  input[type="time"].input-sm,
+  .input-group-sm > input[type="time"].form-control,
+  .input-group-sm > input[type="time"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="time"].btn,
+  input[type="datetime-local"].input-sm,
+  .input-group-sm > input[type="datetime-local"].form-control,
+  .input-group-sm > input[type="datetime-local"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="datetime-local"].btn,
+  input[type="month"].input-sm,
+  .input-group-sm > input[type="month"].form-control,
+  .input-group-sm > input[type="month"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="month"].btn {
+    line-height: 30px;
+  }
+
+  input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
+  .input-group-lg > input[type="date"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="date"].btn,
+  input[type="time"].input-lg,
+  .input-group-lg > input[type="time"].form-control,
+  .input-group-lg > input[type="time"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="time"].btn,
+  input[type="datetime-local"].input-lg,
+  .input-group-lg > input[type="datetime-local"].form-control,
+  .input-group-lg > input[type="datetime-local"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="datetime-local"].btn,
+  input[type="month"].input-lg,
+  .input-group-lg > input[type="month"].form-control,
+  .input-group-lg > input[type="month"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="month"].btn {
+>>>>>>> Update docs based on Sass
     line-height: 46px;
   }
 }
 .form-group {
   margin-bottom: 15px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .radio,
 .checkbox {
   position: relative;
@@ -2625,25 +5309,44 @@ input[type="search"] {
   margin-bottom: 10px;
 }
 .radio label,
+<<<<<<< HEAD
 .checkbox label {
+=======
+  .checkbox label {
+>>>>>>> Update docs based on Sass
   min-height: 20px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: normal;
   cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
+<<<<<<< HEAD
   margin-top: 4px \9;
   margin-left: -20px;
 }
+=======
+  margin-top: 4px \9; 
+  margin-left: -20px;
+}
+
+>>>>>>> Update docs based on Sass
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .radio-inline,
 .checkbox-inline {
   display: inline-block;
@@ -2653,11 +5356,16 @@ input[type="search"] {
   vertical-align: middle;
   cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px;
 }
+<<<<<<< HEAD
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 input[type="radio"].disabled,
@@ -2704,12 +5412,52 @@ select[multiple].input-sm {
   height: auto;
 }
 .form-group-sm .form-control {
+=======
+
+input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"],
+input[type="checkbox"][disabled],
+input[type="checkbox"].disabled, fieldset[disabled]
+input[type="checkbox"] {
+  cursor: not-allowed;
+}
+
+.radio-inline.disabled, fieldset[disabled] .radio-inline,
+.checkbox-inline.disabled, fieldset[disabled]
+.checkbox-inline {
+  cursor: not-allowed;
+}
+
+.radio.disabled label, fieldset[disabled] .radio label,
+.checkbox.disabled label, fieldset[disabled]
+.checkbox label {
+  cursor: not-allowed;
+}
+
+.form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+.form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
+  .input-group-lg > .form-control-static.input-group-addon,
+  .input-group-lg > .input-group-btn > .form-control-static.btn, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
+  .input-group-sm > .form-control-static.input-group-addon,
+  .input-group-sm > .input-group-btn > .form-control-static.btn {
+  padding-right: 0; 
+  padding-left: 0;
+}
+
+.input-sm, .input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn, .form-group-sm .form-control {
+>>>>>>> Update docs based on Sass
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
+<<<<<<< HEAD
 select.form-group-sm .form-control {
   height: 30px;
   line-height: 30px;
@@ -2760,12 +5508,63 @@ select[multiple].form-group-lg .form-control {
   font-size: 18px;
   line-height: 1.3333333;
 }
+=======
+
+select.input-sm, .input-group-sm > select.form-control,
+.input-group-sm > select.input-group-addon,
+.input-group-sm > .input-group-btn > select.btn, .form-group-sm .form-control {
+  height: 30px;
+  line-height: 30px;
+}
+
+textarea.input-sm, .input-group-sm > textarea.form-control,
+.input-group-sm > textarea.input-group-addon,
+.input-group-sm > .input-group-btn > textarea.btn, .form-group-sm .form-control,
+select[multiple].input-sm,
+.input-group-sm > select[multiple].form-control,
+.input-group-sm > select[multiple].input-group-addon,
+.input-group-sm > .input-group-btn > select[multiple].btn, .form-group-sm .form-control {
+  height: auto;
+}
+
+.input-lg, .input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn, .form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+select.input-lg, .input-group-lg > select.form-control,
+.input-group-lg > select.input-group-addon,
+.input-group-lg > .input-group-btn > select.btn, .form-group-lg .form-control {
+  height: 46px;
+  line-height: 46px;
+}
+
+textarea.input-lg, .input-group-lg > textarea.form-control,
+.input-group-lg > textarea.input-group-addon,
+.input-group-lg > .input-group-btn > textarea.btn, .form-group-lg .form-control,
+select[multiple].input-lg,
+.input-group-lg > select[multiple].form-control,
+.input-group-lg > select[multiple].input-group-addon,
+.input-group-lg > .input-group-btn > select[multiple].btn, .form-group-lg .form-control {
+  height: auto;
+}
+
+>>>>>>> Update docs based on Sass
 .has-feedback {
   position: relative;
 }
 .has-feedback .form-control {
   padding-right: 42.5px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .form-control-feedback {
   position: absolute;
   top: 0;
@@ -2778,26 +5577,48 @@ select[multiple].form-group-lg .form-control {
   text-align: center;
   pointer-events: none;
 }
+<<<<<<< HEAD
 .input-lg + .form-control-feedback {
+=======
+
+.input-lg + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
+.input-group-lg > .input-group-addon + .form-control-feedback,
+.input-group-lg > .input-group-btn > .btn + .form-control-feedback {
+>>>>>>> Update docs based on Sass
   width: 46px;
   height: 46px;
   line-height: 46px;
 }
+<<<<<<< HEAD
 .input-sm + .form-control-feedback {
+=======
+
+.input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
+.input-group-sm > .input-group-addon + .form-control-feedback,
+.input-group-sm > .input-group-btn > .btn + .form-control-feedback {
+>>>>>>> Update docs based on Sass
   width: 30px;
   height: 30px;
   line-height: 30px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
 .has-success .checkbox,
 .has-success .radio-inline,
+<<<<<<< HEAD
 .has-success .checkbox-inline,
 .has-success.radio label,
 .has-success.checkbox label,
 .has-success.radio-inline label,
 .has-success.checkbox-inline label {
+=======
+.has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+>>>>>>> Update docs based on Sass
   color: #3c763d;
 }
 .has-success .form-control {
@@ -2812,22 +5633,34 @@ select[multiple].form-group-lg .form-control {
 }
 .has-success .input-group-addon {
   color: #3c763d;
+<<<<<<< HEAD
   background-color: #dff0d8;
+=======
+  background-color: #dff0d8; 
+>>>>>>> Update docs based on Sass
   border-color: #3c763d;
 }
 .has-success .form-control-feedback {
   color: #3c763d;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
 .has-warning .checkbox,
 .has-warning .radio-inline,
+<<<<<<< HEAD
 .has-warning .checkbox-inline,
 .has-warning.radio label,
 .has-warning.checkbox label,
 .has-warning.radio-inline label,
 .has-warning.checkbox-inline label {
+=======
+.has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
+>>>>>>> Update docs based on Sass
   color: #8a6d3b;
 }
 .has-warning .form-control {
@@ -2842,22 +5675,34 @@ select[multiple].form-group-lg .form-control {
 }
 .has-warning .input-group-addon {
   color: #8a6d3b;
+<<<<<<< HEAD
   background-color: #fcf8e3;
+=======
+  background-color: #fcf8e3; 
+>>>>>>> Update docs based on Sass
   border-color: #8a6d3b;
 }
 .has-warning .form-control-feedback {
   color: #8a6d3b;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
 .has-error .checkbox,
 .has-error .radio-inline,
+<<<<<<< HEAD
 .has-error .checkbox-inline,
 .has-error.radio label,
 .has-error.checkbox label,
 .has-error.radio-inline label,
 .has-error.checkbox-inline label {
+=======
+.has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+>>>>>>> Update docs based on Sass
   color: #a94442;
 }
 .has-error .form-control {
@@ -2872,24 +5717,40 @@ select[multiple].form-group-lg .form-control {
 }
 .has-error .input-group-addon {
   color: #a94442;
+<<<<<<< HEAD
   background-color: #f2dede;
+=======
+  background-color: #f2dede; 
+>>>>>>> Update docs based on Sass
   border-color: #a94442;
 }
 .has-error .form-control-feedback {
   color: #a94442;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .has-feedback label ~ .form-control-feedback {
   top: 25px;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .help-block {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
   color: #737373;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .form-inline .form-group {
     display: inline-block;
@@ -2940,11 +5801,19 @@ select[multiple].form-group-lg .form-control {
     top: 0;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
 .form-horizontal .checkbox-inline {
+<<<<<<< HEAD
   padding-top: 7px;
+=======
+  padding-top: 7px; 
+>>>>>>> Update docs based on Sass
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -2953,12 +5822,28 @@ select[multiple].form-group-lg .form-control {
   min-height: 27px;
 }
 .form-horizontal .form-group {
+<<<<<<< HEAD
   margin-right: -15px;
   margin-left: -15px;
 }
 @media (min-width: 768px) {
   .form-horizontal .control-label {
     padding-top: 7px;
+=======
+  margin-right: -15px; 
+  margin-left: -15px;
+}
+.form-horizontal .form-group:before, .form-horizontal .form-group:after {
+  display: table; 
+  content: " ";
+}
+.form-horizontal .form-group:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    padding-top: 7px; 
+>>>>>>> Update docs based on Sass
     margin-bottom: 0;
     text-align: right;
   }
@@ -2968,7 +5853,11 @@ select[multiple].form-group-lg .form-control {
 }
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
+<<<<<<< HEAD
     padding-top: 14.333333px;
+=======
+    padding-top: 14.3px;
+>>>>>>> Update docs based on Sass
   }
 }
 @media (min-width: 768px) {
@@ -2976,13 +5865,21 @@ select[multiple].form-group-lg .form-control {
     padding-top: 6px;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
+<<<<<<< HEAD
   line-height: 1.42857143;
+=======
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2992,21 +5889,30 @@ select[multiple].form-group-lg .form-control {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
+<<<<<<< HEAD
           user-select: none;
+=======
+          user-select: none; 
+>>>>>>> Update docs based on Sass
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
 }
+<<<<<<< HEAD
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
+=======
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+>>>>>>> Update docs based on Sass
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+<<<<<<< HEAD
 .btn:hover,
 .btn:focus,
 .btn.focus {
@@ -3015,36 +5921,59 @@ select[multiple].form-group-lg .form-control {
 }
 .btn:active,
 .btn.active {
+=======
+.btn:hover, .btn:focus, .btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn:active, .btn.active {
+>>>>>>> Update docs based on Sass
   background-image: none;
   outline: 0;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
+<<<<<<< HEAD
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
+=======
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+>>>>>>> Update docs based on Sass
   pointer-events: none;
   cursor: not-allowed;
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
+<<<<<<< HEAD
           box-shadow: none;
   opacity: .65;
 }
+=======
+          box-shadow: none; 
+  opacity: .65;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-default {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
 }
+<<<<<<< HEAD
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
+=======
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+>>>>>>> Update docs based on Sass
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
+<<<<<<< HEAD
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
@@ -3068,6 +5997,12 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
+=======
+.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+  background-image: none;
+}
+.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
+>>>>>>> Update docs based on Sass
   background-color: #fff;
   border-color: #ccc;
 }
@@ -3075,21 +6010,30 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #333;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-primary {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
 }
+<<<<<<< HEAD
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
+=======
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #286090;
   border-color: #204d74;
 }
+<<<<<<< HEAD
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
@@ -3113,6 +6057,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
+=======
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  background-image: none;
+}
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+>>>>>>> Update docs based on Sass
   background-color: #337ab7;
   border-color: #2e6da4;
 }
@@ -3120,21 +6070,30 @@ fieldset[disabled] .btn-primary.active {
   color: #337ab7;
   background-color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-success {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
+<<<<<<< HEAD
 .btn-success:hover,
 .btn-success:focus,
 .btn-success.focus,
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
+=======
+.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
+<<<<<<< HEAD
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
@@ -3158,6 +6117,12 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
+=======
+.btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+  background-image: none;
+}
+.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
+>>>>>>> Update docs based on Sass
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
@@ -3165,21 +6130,30 @@ fieldset[disabled] .btn-success.active {
   color: #5cb85c;
   background-color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da;
 }
+<<<<<<< HEAD
 .btn-info:hover,
 .btn-info:focus,
 .btn-info.focus,
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
+=======
+.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
+<<<<<<< HEAD
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
@@ -3203,6 +6177,12 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
+=======
+.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+  background-image: none;
+}
+.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
+>>>>>>> Update docs based on Sass
   background-color: #5bc0de;
   border-color: #46b8da;
 }
@@ -3210,21 +6190,30 @@ fieldset[disabled] .btn-info.active {
   color: #5bc0de;
   background-color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
   border-color: #eea236;
 }
+<<<<<<< HEAD
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning.focus,
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
+=======
+.btn-warning:hover, .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
 }
+<<<<<<< HEAD
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
@@ -3248,6 +6237,12 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
+=======
+.btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+  background-image: none;
+}
+.btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
+>>>>>>> Update docs based on Sass
   background-color: #f0ad4e;
   border-color: #eea236;
 }
@@ -3255,21 +6250,30 @@ fieldset[disabled] .btn-warning.active {
   color: #f0ad4e;
   background-color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-danger {
   color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a;
 }
+<<<<<<< HEAD
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger.focus,
 .btn-danger:active,
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
+=======
+.btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #c9302c;
   border-color: #ac2925;
 }
+<<<<<<< HEAD
 .btn-danger:active,
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
@@ -3293,6 +6297,12 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
+=======
+.btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+  background-image: none;
+}
+.btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
+>>>>>>> Update docs based on Sass
   background-color: #d9534f;
   border-color: #d43f3a;
 }
@@ -3300,20 +6310,29 @@ fieldset[disabled] .btn-danger.active {
   color: #d9534f;
   background-color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-link {
   font-weight: normal;
   color: #337ab7;
   border-radius: 0;
 }
+<<<<<<< HEAD
 .btn-link,
 .btn-link:active,
 .btn-link.active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
+=======
+.btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
+>>>>>>> Update docs based on Sass
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+<<<<<<< HEAD
 .btn-link,
 .btn-link:hover,
 .btn-link:focus,
@@ -3322,10 +6341,17 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
+=======
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+  border-color: transparent;
+}
+.btn-link:hover, .btn-link:focus {
+>>>>>>> Update docs based on Sass
   color: #23527c;
   text-decoration: underline;
   background-color: transparent;
 }
+<<<<<<< HEAD
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
@@ -3342,30 +6368,66 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-sm,
 .btn-group-sm > .btn {
+=======
+.btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
+  color: #777;
+  text-decoration: none;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+>>>>>>> Update docs based on Sass
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
+<<<<<<< HEAD
 .btn-xs,
 .btn-group-xs > .btn {
+=======
+
+.btn-xs, .btn-group-xs > .btn {
+>>>>>>> Update docs based on Sass
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-block {
   display: block;
   width: 100%;
 }
+<<<<<<< HEAD
 .btn-block + .btn-block {
   margin-top: 5px;
 }
+=======
+
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+>>>>>>> Update docs based on Sass
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .fade {
   opacity: 0;
   -webkit-transition: opacity .15s linear;
@@ -3375,6 +6437,10 @@ input[type="button"].btn-block {
 .fade.in {
   opacity: 1;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .collapse {
   display: none;
   visibility: hidden;
@@ -3383,19 +6449,35 @@ input[type="button"].btn-block {
   display: block;
   visibility: visible;
 }
+<<<<<<< HEAD
 tr.collapse.in {
   display: table-row;
 }
 tbody.collapse.in {
   display: table-row-group;
 }
+=======
+
+tr.collapse.in {
+  display: table-row;
+}
+
+tbody.collapse.in {
+  display: table-row-group;
+}
+
+>>>>>>> Update docs based on Sass
 .collapsing {
   position: relative;
   height: 0;
   overflow: hidden;
   -webkit-transition-timing-function: ease;
        -o-transition-timing-function: ease;
+<<<<<<< HEAD
           transition-timing-function: ease;
+=======
+          transition-timing-function: ease; 
+>>>>>>> Update docs based on Sass
   -webkit-transition-duration: .35s;
        -o-transition-duration: .35s;
           transition-duration: .35s;
@@ -3403,6 +6485,10 @@ tbody.collapse.in {
        -o-transition-property: height, visibility;
           transition-property: height, visibility;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .caret {
   display: inline-block;
   width: 0;
@@ -3413,6 +6499,7 @@ tbody.collapse.in {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
+<<<<<<< HEAD
 .dropup,
 .dropdown {
   position: relative;
@@ -3420,6 +6507,17 @@ tbody.collapse.in {
 .dropdown-toggle:focus {
   outline: 0;
 }
+=======
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle:focus {
+  outline: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -3435,7 +6533,11 @@ tbody.collapse.in {
   list-style: none;
   background-color: #fff;
   -webkit-background-clip: padding-box;
+<<<<<<< HEAD
           background-clip: padding-box;
+=======
+          background-clip: padding-box; 
+>>>>>>> Update docs based on Sass
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 4px;
@@ -3457,16 +6559,26 @@ tbody.collapse.in {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
+<<<<<<< HEAD
   line-height: 1.42857143;
   color: #333;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
+=======
+  line-height: 1.42857;
+  color: #333;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+>>>>>>> Update docs based on Sass
   color: #262626;
   text-decoration: none;
   background-color: #f5f5f5;
 }
+<<<<<<< HEAD
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -3484,16 +6596,37 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
   cursor: not-allowed;
+=======
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #337ab7; 
+  outline: 0;
+}
+
+.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  color: #777;
+}
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  cursor: not-allowed; 
+>>>>>>> Update docs based on Sass
   background-color: transparent;
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .open > .dropdown-menu {
   display: block;
 }
 .open > a {
   outline: 0;
 }
+<<<<<<< HEAD
 .dropdown-menu-right {
   right: 0;
   left: auto;
@@ -3502,14 +6635,35 @@ tbody.collapse.in {
   right: auto;
   left: 0;
 }
+=======
+
+.dropdown-menu-right {
+  right: 0; 
+  left: auto;
+}
+
+.dropdown-menu-left {
+  right: auto; 
+  left: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .dropdown-header {
   display: block;
   padding: 3px 20px;
   font-size: 12px;
+<<<<<<< HEAD
   line-height: 1.42857143;
   color: #777;
   white-space: nowrap;
 }
+=======
+  line-height: 1.42857;
+  color: #777;
+  white-space: nowrap;
+}
+
+>>>>>>> Update docs based on Sass
 .dropdown-backdrop {
   position: fixed;
   top: 0;
@@ -3518,13 +6672,24 @@ tbody.collapse.in {
   left: 0;
   z-index: 990;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
+<<<<<<< HEAD
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   content: "";
+=======
+
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  content: ""; 
+>>>>>>> Update docs based on Sass
   border-top: 0;
   border-bottom: 4px solid;
 }
@@ -3532,15 +6697,25 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
   bottom: 100%;
+<<<<<<< HEAD
   margin-bottom: 2px;
 }
+=======
+  margin-bottom: 1px;
+}
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
   }
   .navbar-right .dropdown-menu-left {
+<<<<<<< HEAD
     right: auto;
+=======
+    right: auto; 
+>>>>>>> Update docs based on Sass
     left: 0;
   }
 }
@@ -3551,6 +6726,7 @@ tbody.collapse.in {
   vertical-align: middle;
 }
 .btn-group > .btn,
+<<<<<<< HEAD
 .btn-group-vertical > .btn {
   position: relative;
   float: left;
@@ -3565,12 +6741,27 @@ tbody.collapse.in {
 .btn-group-vertical > .btn.active {
   z-index: 2;
 }
+=======
+  .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+.btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
+    .btn-group-vertical > .btn:hover,
+    .btn-group-vertical > .btn:focus,
+    .btn-group-vertical > .btn:active,
+    .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
 .btn-group .btn-group + .btn-group {
   margin-left: -1px;
 }
+<<<<<<< HEAD
 .btn-toolbar {
   margin-left: -5px;
 }
@@ -3586,10 +6777,38 @@ tbody.collapse.in {
 .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
+=======
+
+.btn-toolbar {
+  margin-left: -5px;
+}
+.btn-toolbar:before, .btn-toolbar:after {
+  display: table; 
+  content: " ";
+}
+.btn-toolbar:after {
+  clear: both;
+}
+.btn-toolbar .btn-group,
+  .btn-toolbar .input-group {
+  float: left;
+}
+.btn-toolbar > .btn,
+  .btn-toolbar > .btn-group,
+  .btn-toolbar > .input-group {
+  margin-left: 5px;
+}
+
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-group > .btn:first-child {
   margin-left: 0;
 }
 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+<<<<<<< HEAD
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -3613,10 +6832,42 @@ tbody.collapse.in {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+=======
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn:last-child:not(:first-child),
+.btn-group > .dropdown-toggle:not(:first-child) {
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+}
+
+.btn-group > .btn-group {
+  float: left;
+}
+
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+
+.btn-group > .btn-group:first-child > .btn:last-child,
+.btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn-group:last-child > .btn:first-child {
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
   outline: 0;
 }
+<<<<<<< HEAD
 .btn-group > .btn + .dropdown-toggle {
   padding-right: 8px;
   padding-left: 8px;
@@ -3625,6 +6876,19 @@ tbody.collapse.in {
   padding-right: 12px;
   padding-left: 12px;
 }
+=======
+
+.btn-group > .btn + .dropdown-toggle {
+  padding-right: 8px; 
+  padding-left: 8px;
+}
+
+.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle {
+  padding-right: 12px; 
+  padding-left: 12px;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
@@ -3633,6 +6897,7 @@ tbody.collapse.in {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+<<<<<<< HEAD
 .btn .caret {
   margin-left: 0;
 }
@@ -3643,6 +6908,22 @@ tbody.collapse.in {
 .dropup .btn-lg .caret {
   border-width: 0 5px 5px;
 }
+=======
+
+.btn .caret {
+  margin-left: 0;
+}
+
+.btn-lg .caret, .btn-group-lg > .btn .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+
+.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret {
+  border-width: 0 5px 5px;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-group-vertical > .btn,
 .btn-group-vertical > .btn-group,
 .btn-group-vertical > .btn-group > .btn {
@@ -3651,6 +6932,16 @@ tbody.collapse.in {
   width: 100%;
   max-width: 100%;
 }
+<<<<<<< HEAD
+=======
+.btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after {
+  display: table; 
+  content: " ";
+}
+.btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 .btn-group-vertical > .btn-group > .btn {
   float: none;
 }
@@ -3661,6 +6952,10 @@ tbody.collapse.in {
   margin-top: -1px;
   margin-left: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
@@ -3670,6 +6965,7 @@ tbody.collapse.in {
   border-bottom-left-radius: 0;
 }
 .btn-group-vertical > .btn:last-child:not(:first-child) {
+<<<<<<< HEAD
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
@@ -3677,15 +6973,35 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
 }
+=======
+  border-top-left-radius: 0; 
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+}
+
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+<<<<<<< HEAD
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+=======
+
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-left-radius: 0; 
+  border-top-right-radius: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .btn-group-justified {
   display: table;
   width: 100%;
@@ -3693,7 +7009,11 @@ tbody.collapse.in {
   border-collapse: separate;
 }
 .btn-group-justified > .btn,
+<<<<<<< HEAD
 .btn-group-justified > .btn-group {
+=======
+  .btn-group-justified > .btn-group {
+>>>>>>> Update docs based on Sass
   display: table-cell;
   float: none;
   width: 1%;
@@ -3704,14 +7024,25 @@ tbody.collapse.in {
 .btn-group-justified > .btn-group .dropdown-menu {
   left: auto;
 }
+<<<<<<< HEAD
 [data-toggle="buttons"] > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn input[type="checkbox"],
+=======
+
+[data-toggle="buttons"] > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+>>>>>>> Update docs based on Sass
 [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .input-group {
   position: relative;
   display: table;
@@ -3719,7 +7050,11 @@ tbody.collapse.in {
 }
 .input-group[class*="col-"] {
   float: none;
+<<<<<<< HEAD
   padding-right: 0;
+=======
+  padding-right: 0; 
+>>>>>>> Update docs based on Sass
   padding-left: 0;
 }
 .input-group .form-control {
@@ -3729,6 +7064,7 @@ tbody.collapse.in {
   width: 100%;
   margin-bottom: 0;
 }
+<<<<<<< HEAD
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
@@ -3775,22 +7111,37 @@ select[multiple].input-group-sm > .input-group-addon,
 select[multiple].input-group-sm > .input-group-btn > .btn {
   height: auto;
 }
+=======
+
+>>>>>>> Update docs based on Sass
 .input-group-addon,
 .input-group-btn,
 .input-group .form-control {
   display: table-cell;
 }
 .input-group-addon:not(:first-child):not(:last-child),
+<<<<<<< HEAD
 .input-group-btn:not(:first-child):not(:last-child),
 .input-group .form-control:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
+=======
+  .input-group-btn:not(:first-child):not(:last-child),
+  .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .input-group-addon,
 .input-group-btn {
   width: 1%;
   white-space: nowrap;
   vertical-align: middle;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .input-group-addon {
   padding: 6px 12px;
   font-size: 14px;
@@ -3802,20 +7153,39 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+<<<<<<< HEAD
 .input-group-addon.input-sm {
+=======
+.input-group-addon.input-sm,
+  .input-group-sm > .input-group-addon,
+  .input-group-sm > .input-group-btn > .input-group-addon.btn {
+>>>>>>> Update docs based on Sass
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 3px;
 }
+<<<<<<< HEAD
 .input-group-addon.input-lg {
+=======
+.input-group-addon.input-lg,
+  .input-group-lg > .input-group-addon,
+  .input-group-lg > .input-group-btn > .input-group-addon.btn {
+>>>>>>> Update docs based on Sass
   padding: 10px 16px;
   font-size: 18px;
   border-radius: 6px;
 }
 .input-group-addon input[type="radio"],
+<<<<<<< HEAD
 .input-group-addon input[type="checkbox"] {
   margin-top: 0;
 }
+=======
+  .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
@@ -3823,12 +7193,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:first-child > .dropdown-toggle,
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+<<<<<<< HEAD
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 .input-group-addon:first-child {
   border-right: 0;
 }
+=======
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0;
+}
+
+.input-group-addon:first-child {
+  border-right: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
 .input-group-btn:last-child > .btn,
@@ -3836,12 +7217,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+<<<<<<< HEAD
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 .input-group-addon:last-child {
   border-left: 0;
 }
+=======
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+}
+
+.input-group-addon:last-child {
+  border-left: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .input-group-btn {
   position: relative;
   font-size: 0;
@@ -3853,6 +7245,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn > .btn + .btn {
   margin-left: -1px;
 }
+<<<<<<< HEAD
 .input-group-btn > .btn:hover,
 .input-group-btn > .btn:focus,
 .input-group-btn > .btn:active {
@@ -3866,11 +7259,35 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group {
   margin-left: -1px;
 }
+=======
+.input-group-btn > .btn:hover, .input-group-btn > .btn:focus, .input-group-btn > .btn:active {
+  z-index: 2;
+}
+.input-group-btn:first-child > .btn,
+  .input-group-btn:first-child > .btn-group {
+  margin-right: -1px;
+}
+.input-group-btn:last-child > .btn,
+  .input-group-btn:last-child > .btn-group {
+  margin-left: -1px;
+}
+
+>>>>>>> Update docs based on Sass
 .nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
+<<<<<<< HEAD
+=======
+.nav:before, .nav:after {
+  display: table; 
+  content: " ";
+}
+.nav:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 .nav > li {
   position: relative;
   display: block;
@@ -3880,14 +7297,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   padding: 10px 15px;
 }
+<<<<<<< HEAD
 .nav > li > a:hover,
 .nav > li > a:focus {
+=======
+.nav > li > a:hover, .nav > li > a:focus {
+>>>>>>> Update docs based on Sass
   text-decoration: none;
   background-color: #eee;
 }
 .nav > li.disabled > a {
   color: #777;
 }
+<<<<<<< HEAD
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
   color: #777;
@@ -3898,6 +7320,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
+=======
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed; 
+  background-color: transparent;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+>>>>>>> Update docs based on Sass
   background-color: #eee;
   border-color: #337ab7;
 }
@@ -3910,6 +7341,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a > img {
   max-width: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .nav-tabs {
   border-bottom: 1px solid #ddd;
 }
@@ -3919,22 +7354,33 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs > li > a {
   margin-right: 2px;
+<<<<<<< HEAD
   line-height: 1.42857143;
+=======
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
 }
+<<<<<<< HEAD
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
+=======
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default; 
+>>>>>>> Update docs based on Sass
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
+<<<<<<< HEAD
 .nav-tabs.nav-justified {
   width: 100%;
   border-bottom: 0;
@@ -3979,6 +7425,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #fff;
   }
 }
+=======
+
+>>>>>>> Update docs based on Sass
 .nav-pills > li {
   float: left;
 }
@@ -3988,12 +7437,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li + li {
   margin-left: 2px;
 }
+<<<<<<< HEAD
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #337ab7;
 }
+=======
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+>>>>>>> Update docs based on Sass
 .nav-stacked > li {
   float: none;
 }
@@ -4001,6 +7458,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 2px;
   margin-left: 0;
 }
+<<<<<<< HEAD
 .nav-justified {
   width: 100%;
 }
@@ -4009,6 +7467,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-justified > li > a {
   margin-bottom: 5px;
+=======
+
+.nav-justified, .nav-tabs.nav-justified {
+  width: 100%;
+}
+.nav-justified > li, .nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px; 
+>>>>>>> Update docs based on Sass
   text-align: center;
 }
 .nav-justified > .dropdown .dropdown-menu {
@@ -4016,6 +7485,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   left: auto;
 }
 @media (min-width: 768px) {
+<<<<<<< HEAD
   .nav-justified > li {
     display: table-cell;
     width: 1%;
@@ -4047,6 +7517,45 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #fff;
   }
 }
+=======
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+
+.nav-tabs-justified, .nav-tabs.nav-justified {
+  border-bottom: 0;
+}
+.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+>>>>>>> Update docs based on Sass
 .tab-content > .tab-pane {
   display: none;
   visibility: hidden;
@@ -4055,36 +7564,85 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   visibility: visible;
 }
+<<<<<<< HEAD
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+=======
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0; 
+  border-top-right-radius: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .navbar {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
+<<<<<<< HEAD
+=======
+.navbar:before, .navbar:after {
+  display: table; 
+  content: " ";
+}
+.navbar:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
   }
 }
+<<<<<<< HEAD
+=======
+
+.navbar-header:before, .navbar-header:after {
+  display: table; 
+  content: " ";
+}
+.navbar-header:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-collapse {
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
+<<<<<<< HEAD
   -webkit-overflow-scrolling: touch;
+=======
+  -webkit-overflow-scrolling: touch; 
+>>>>>>> Update docs based on Sass
   border-top: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
+<<<<<<< HEAD
+=======
+.navbar-collapse:before, .navbar-collapse:after {
+  display: table; 
+  content: " ";
+}
+.navbar-collapse:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 .navbar-collapse.in {
   overflow-y: auto;
 }
@@ -4099,12 +7657,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
+<<<<<<< HEAD
     overflow: visible !important;
+=======
+    overflow: visible !important; 
+>>>>>>> Update docs based on Sass
     visibility: visible !important;
   }
   .navbar-collapse.in {
     overflow-y: visible;
   }
+<<<<<<< HEAD
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
@@ -4112,6 +7675,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-left: 0;
   }
 }
+=======
+  .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    padding-right: 0; 
+    padding-left: 0;
+  }
+}
+
+>>>>>>> Update docs based on Sass
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
@@ -4122,22 +7693,38 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     max-height: 200px;
   }
 }
+<<<<<<< HEAD
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
+=======
+
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+>>>>>>> Update docs based on Sass
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
+<<<<<<< HEAD
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
+=======
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-header,
+>>>>>>> Update docs based on Sass
   .container-fluid > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px;
@@ -4147,6 +7734,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 0;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -4160,35 +7751,62 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 0;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-fixed-bottom {
   bottom: 0;
   margin-bottom: 0;
   border-width: 1px 0 0;
 }
+<<<<<<< HEAD
 .navbar-brand {
   float: left;
   height: 50px;
+=======
+
+.navbar-brand {
+  float: left;
+  height: 50px; 
+>>>>>>> Update docs based on Sass
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
 }
+<<<<<<< HEAD
 .navbar-brand:hover,
 .navbar-brand:focus {
+=======
+.navbar-brand:hover, .navbar-brand:focus {
+>>>>>>> Update docs based on Sass
   text-decoration: none;
 }
 .navbar-brand > img {
   display: block;
 }
 @media (min-width: 768px) {
+<<<<<<< HEAD
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
+=======
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+
+>>>>>>> Update docs based on Sass
 .navbar-toggle {
   position: relative;
   float: right;
@@ -4218,6 +7836,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: none;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-nav {
   margin: 7.5px -15px;
 }
@@ -4244,8 +7866,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
   }
+<<<<<<< HEAD
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
+=======
+  .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+>>>>>>> Update docs based on Sass
     background-image: none;
   }
 }
@@ -4262,11 +7888,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-bottom: 15px;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-form {
   padding: 10px 15px;
   margin-top: 8px;
   margin-right: -15px;
+<<<<<<< HEAD
   margin-bottom: 8px;
+=======
+  margin-bottom: 8px; 
+>>>>>>> Update docs based on Sass
   margin-left: -15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
@@ -4343,6 +7977,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
 }
+<<<<<<< HEAD
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-left-radius: 0;
@@ -4350,15 +7985,30 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
+=======
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0; 
+  border-top-right-radius: 0;
+}
+
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+>>>>>>> Update docs based on Sass
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+<<<<<<< HEAD
 .navbar-btn.btn-sm {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -4367,6 +8017,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 14px;
   margin-bottom: 14px;
 }
+=======
+.navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+>>>>>>> Update docs based on Sass
 .navbar-text {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -4374,14 +8035,26 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-text {
     float: left;
+<<<<<<< HEAD
     margin-right: 15px;
     margin-left: 15px;
   }
 }
+=======
+    margin-right: 15px; 
+    margin-left: 15px;
+  }
+}
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .navbar-left {
     float: left !important;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   .navbar-right {
     float: right !important;
     margin-right: -15px;
@@ -4397,8 +8070,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-brand {
   color: #777;
 }
+<<<<<<< HEAD
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
+=======
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+>>>>>>> Update docs based on Sass
   color: #5e5e5e;
   background-color: transparent;
 }
@@ -4408,6 +8085,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a {
   color: #777;
 }
+<<<<<<< HEAD
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #333;
@@ -4422,20 +8100,36 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
+=======
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+>>>>>>> Update docs based on Sass
   color: #ccc;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
   border-color: #ddd;
 }
+<<<<<<< HEAD
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
+=======
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+>>>>>>> Update docs based on Sass
   background-color: #ddd;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
 }
 .navbar-default .navbar-collapse,
+<<<<<<< HEAD
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
@@ -4443,12 +8137,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555;
+=======
+  .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #555; 
+>>>>>>> Update docs based on Sass
   background-color: #e7e7e7;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
+<<<<<<< HEAD
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
@@ -4463,6 +8165,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+=======
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+>>>>>>> Update docs based on Sass
     color: #ccc;
     background-color: transparent;
   }
@@ -4476,6 +8189,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .btn-link {
   color: #777;
 }
+<<<<<<< HEAD
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
   color: #333;
@@ -4489,12 +8203,28 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
+=======
+.navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+  color: #333;
+}
+.navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc;
+}
+
+.navbar-inverse {
+  background-color: #222;
+  border-color: #090909;
+>>>>>>> Update docs based on Sass
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
 }
+<<<<<<< HEAD
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
+=======
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: transparent;
 }
@@ -4504,6 +8234,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
 }
+<<<<<<< HEAD
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
@@ -4518,20 +8249,36 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
+=======
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #090909;
+}
+.navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
+>>>>>>> Update docs based on Sass
   color: #444;
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {
   border-color: #333;
 }
+<<<<<<< HEAD
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
+=======
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+>>>>>>> Update docs based on Sass
   background-color: #333;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 .navbar-inverse .navbar-collapse,
+<<<<<<< HEAD
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
@@ -4547,10 +8294,26 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #080808;
+=======
+  .navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff; 
+  background-color: #090909;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #090909;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #090909;
+>>>>>>> Update docs based on Sass
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #9d9d9d;
   }
+<<<<<<< HEAD
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #fff;
@@ -4565,6 +8328,17 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+=======
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #090909;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+>>>>>>> Update docs based on Sass
     color: #444;
     background-color: transparent;
   }
@@ -4578,6 +8352,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .btn-link {
   color: #9d9d9d;
 }
+<<<<<<< HEAD
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
   color: #fff;
@@ -4588,6 +8363,15 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
+=======
+.navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
+  color: #fff;
+}
+.navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
+  color: #444;
+}
+
+>>>>>>> Update docs based on Sass
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -4600,12 +8384,21 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
+<<<<<<< HEAD
   color: #ccc;
   content: "/\00a0";
+=======
+  color: #ccc; 
+  content: "/ ";
+>>>>>>> Update docs based on Sass
 }
 .breadcrumb > .active {
   color: #777;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .pagination {
   display: inline-block;
   padding-left: 0;
@@ -4616,18 +8409,28 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: inline;
 }
 .pagination > li > a,
+<<<<<<< HEAD
 .pagination > li > span {
   position: relative;
   float: left;
   padding: 6px 12px;
   margin-left: -1px;
   line-height: 1.42857143;
+=======
+    .pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px; 
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   color: #337ab7;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 .pagination > li:first-child > a,
+<<<<<<< HEAD
 .pagination > li:first-child > span {
   margin-left: 0;
   border-top-left-radius: 4px;
@@ -4642,10 +8445,26 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
+=======
+    .pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px; 
+  border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+    .pagination > li:last-child > span {
+  border-top-right-radius: 4px; 
+  border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover, .pagination > li > a:focus,
+  .pagination > li > span:hover,
+  .pagination > li > span:focus {
+>>>>>>> Update docs based on Sass
   color: #23527c;
   background-color: #eee;
   border-color: #ddd;
 }
+<<<<<<< HEAD
 .pagination > .active > a,
 .pagination > .active > span,
 .pagination > .active > a:hover,
@@ -4655,10 +8474,20 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 2;
   color: #fff;
   cursor: default;
+=======
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+  .pagination > .active > span,
+  .pagination > .active > span:hover,
+  .pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default; 
+>>>>>>> Update docs based on Sass
   background-color: #337ab7;
   border-color: #337ab7;
 }
 .pagination > .disabled > span,
+<<<<<<< HEAD
 .pagination > .disabled > span:hover,
 .pagination > .disabled > span:focus,
 .pagination > .disabled > a,
@@ -4669,6 +8498,19 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #fff;
   border-color: #ddd;
 }
+=======
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed; 
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+>>>>>>> Update docs based on Sass
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
@@ -4676,14 +8518,25 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
+<<<<<<< HEAD
   border-top-left-radius: 6px;
+=======
+  border-top-left-radius: 6px; 
+>>>>>>> Update docs based on Sass
   border-bottom-left-radius: 6px;
 }
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
+<<<<<<< HEAD
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
+=======
+  border-top-right-radius: 6px; 
+  border-bottom-right-radius: 6px;
+}
+
+>>>>>>> Update docs based on Sass
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
@@ -4691,11 +8544,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
+<<<<<<< HEAD
   border-top-left-radius: 3px;
+=======
+  border-top-left-radius: 3px; 
+>>>>>>> Update docs based on Sass
   border-bottom-left-radius: 3px;
 }
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
+<<<<<<< HEAD
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
@@ -4705,11 +8563,34 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   text-align: center;
   list-style: none;
 }
+=======
+  border-top-right-radius: 3px; 
+  border-bottom-right-radius: 3px;
+}
+
+.pager {
+  padding-left: 0;
+  margin: 20px 0;
+  text-align: center; 
+  list-style: none;
+}
+.pager:before, .pager:after {
+  display: table; 
+  content: " ";
+}
+.pager:after {
+  clear: both;
+}
+>>>>>>> Update docs based on Sass
 .pager li {
   display: inline;
 }
 .pager li > a,
+<<<<<<< HEAD
 .pager li > span {
+=======
+    .pager li > span {
+>>>>>>> Update docs based on Sass
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
@@ -4717,11 +8598,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-radius: 15px;
 }
 .pager li > a:hover,
+<<<<<<< HEAD
 .pager li > a:focus {
+=======
+    .pager li > a:focus {
+>>>>>>> Update docs based on Sass
   text-decoration: none;
   background-color: #eee;
 }
 .pager .next > a,
+<<<<<<< HEAD
 .pager .next > span {
   float: right;
 }
@@ -4737,6 +8623,24 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   cursor: not-allowed;
   background-color: #fff;
 }
+=======
+  .pager .next > span {
+  float: right;
+}
+.pager .previous > a,
+  .pager .previous > span {
+  float: left;
+}
+.pager .disabled > a,
+  .pager .disabled > a:hover,
+  .pager .disabled > a:focus,
+  .pager .disabled > span {
+  color: #777;
+  cursor: not-allowed; 
+  background-color: #fff;
+}
+
+>>>>>>> Update docs based on Sass
 .label {
   display: inline;
   padding: .2em .6em .3em;
@@ -4749,12 +8653,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   vertical-align: baseline;
   border-radius: .25em;
 }
+<<<<<<< HEAD
 a.label:hover,
 a.label:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
+=======
+>>>>>>> Update docs based on Sass
 .label:empty {
   display: none;
 }
@@ -4762,6 +8669,7 @@ a.label:focus {
   position: relative;
   top: -1px;
 }
+<<<<<<< HEAD
 .label-default {
   background-color: #777;
 }
@@ -4804,6 +8712,57 @@ a.label:focus {
 .label-danger[href]:focus {
   background-color: #c9302c;
 }
+=======
+
+a.label:hover, a.label:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label-default {
+  background-color: #777;
+}
+.label-default[href]:hover, .label-default[href]:focus {
+  background-color: #5e5e5e;
+}
+
+.label-primary {
+  background-color: #337ab7;
+}
+.label-primary[href]:hover, .label-primary[href]:focus {
+  background-color: #286090;
+}
+
+.label-success {
+  background-color: #5cb85c;
+}
+.label-success[href]:hover, .label-success[href]:focus {
+  background-color: #449d44;
+}
+
+.label-info {
+  background-color: #5bc0de;
+}
+.label-info[href]:hover, .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+
+.label-warning {
+  background-color: #f0ad4e;
+}
+.label-warning[href]:hover, .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+
+.label-danger {
+  background-color: #d9534f;
+}
+.label-danger[href]:hover, .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+
+>>>>>>> Update docs based on Sass
 .badge {
   display: inline-block;
   min-width: 10px;
@@ -4825,6 +8784,7 @@ a.label:focus {
   position: relative;
   top: -1px;
 }
+<<<<<<< HEAD
 .btn-xs .badge,
 .btn-group-xs > .btn .badge {
   top: 0;
@@ -4838,6 +8798,13 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
+=======
+.btn-xs .badge, .btn-group-xs > .btn .badge {
+  top: 0;
+  padding: 1px 5px;
+}
+.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+>>>>>>> Update docs based on Sass
   color: #337ab7;
   background-color: #fff;
 }
@@ -4850,6 +8817,16 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+<<<<<<< HEAD
+=======
+
+a.badge:hover, a.badge:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+>>>>>>> Update docs based on Sass
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
@@ -4857,7 +8834,11 @@ a.badge:focus {
   background-color: #eee;
 }
 .jumbotron h1,
+<<<<<<< HEAD
 .jumbotron .h1 {
+=======
+  .jumbotron .h1 {
+>>>>>>> Update docs based on Sass
   color: inherit;
 }
 .jumbotron p {
@@ -4868,8 +8849,12 @@ a.badge:focus {
 .jumbotron > hr {
   border-top-color: #d5d5d5;
 }
+<<<<<<< HEAD
 .container .jumbotron,
 .container-fluid .jumbotron {
+=======
+.container .jumbotron, .container-fluid .jumbotron {
+>>>>>>> Update docs based on Sass
   border-radius: 6px;
 }
 .jumbotron .container {
@@ -4879,9 +8864,14 @@ a.badge:focus {
   .jumbotron {
     padding: 48px 0;
   }
+<<<<<<< HEAD
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;
+=======
+  .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 60px; 
+>>>>>>> Update docs based on Sass
     padding-left: 60px;
   }
   .jumbotron h1,
@@ -4889,11 +8879,19 @@ a.badge:focus {
     font-size: 63px;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .thumbnail {
   display: block;
   padding: 4px;
   margin-bottom: 20px;
+<<<<<<< HEAD
   line-height: 1.42857143;
+=======
+  line-height: 1.42857;
+>>>>>>> Update docs based on Sass
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -4902,19 +8900,38 @@ a.badge:focus {
           transition: border .2s ease-in-out;
 }
 .thumbnail > img,
+<<<<<<< HEAD
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
 }
-a.thumbnail:hover,
-a.thumbnail:focus,
-a.thumbnail.active {
-  border-color: #337ab7;
+=======
+  .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto; 
+  margin-left: auto;
 }
 .thumbnail .caption {
   padding: 9px;
   color: #333;
 }
+
+>>>>>>> Update docs based on Sass
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #337ab7;
+}
+<<<<<<< HEAD
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+=======
+
+>>>>>>> Update docs based on Sass
 .alert {
   padding: 15px;
   margin-bottom: 20px;
@@ -4929,25 +8946,43 @@ a.thumbnail.active {
   font-weight: bold;
 }
 .alert > p,
+<<<<<<< HEAD
 .alert > ul {
+=======
+  .alert > ul {
+>>>>>>> Update docs based on Sass
   margin-bottom: 0;
 }
 .alert > p + p {
   margin-top: 5px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .alert-dismissable,
 .alert-dismissible {
   padding-right: 35px;
 }
 .alert-dismissable .close,
+<<<<<<< HEAD
 .alert-dismissible .close {
+=======
+  .alert-dismissible .close {
+>>>>>>> Update docs based on Sass
   position: relative;
   top: -2px;
   right: -21px;
   color: inherit;
 }
+<<<<<<< HEAD
 .alert-success {
   color: #3c763d;
+=======
+
+.alert-success {
+  color: #3c763d; 
+>>>>>>> Update docs based on Sass
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
@@ -4957,8 +8992,14 @@ a.thumbnail.active {
 .alert-success .alert-link {
   color: #2b542c;
 }
+<<<<<<< HEAD
 .alert-info {
   color: #31708f;
+=======
+
+.alert-info {
+  color: #31708f; 
+>>>>>>> Update docs based on Sass
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
@@ -4968,8 +9009,14 @@ a.thumbnail.active {
 .alert-info .alert-link {
   color: #245269;
 }
+<<<<<<< HEAD
 .alert-warning {
   color: #8a6d3b;
+=======
+
+.alert-warning {
+  color: #8a6d3b; 
+>>>>>>> Update docs based on Sass
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
@@ -4979,8 +9026,14 @@ a.thumbnail.active {
 .alert-warning .alert-link {
   color: #66512c;
 }
+<<<<<<< HEAD
 .alert-danger {
   color: #a94442;
+=======
+
+.alert-danger {
+  color: #a94442; 
+>>>>>>> Update docs based on Sass
   background-color: #f2dede;
   border-color: #ebccd1;
 }
@@ -4990,6 +9043,10 @@ a.thumbnail.active {
 .alert-danger .alert-link {
   color: #843534;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @-webkit-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
@@ -5023,6 +9080,10 @@ a.thumbnail.active {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
           box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .progress-bar {
   float: left;
   width: 0;
@@ -5038,6 +9099,10 @@ a.thumbnail.active {
        -o-transition: width .6s ease;
           transition: width .6s ease;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .progress-striped .progress-bar,
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -5046,12 +9111,20 @@ a.thumbnail.active {
   -webkit-background-size: 40px 40px;
           background-size: 40px 40px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .progress.active .progress-bar,
 .progress-bar.active {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
        -o-animation: progress-bar-stripes 2s linear infinite;
           animation: progress-bar-stripes 2s linear infinite;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .progress-bar-success {
   background-color: #5cb85c;
 }
@@ -5060,6 +9133,10 @@ a.thumbnail.active {
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .progress-bar-info {
   background-color: #5bc0de;
 }
@@ -5068,6 +9145,10 @@ a.thumbnail.active {
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .progress-bar-warning {
   background-color: #f0ad4e;
 }
@@ -5076,6 +9157,10 @@ a.thumbnail.active {
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .progress-bar-danger {
   background-color: #d9534f;
 }
@@ -5084,12 +9169,17 @@ a.thumbnail.active {
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .media {
   margin-top: 15px;
 }
 .media:first-child {
   margin-top: 0;
 }
+<<<<<<< HEAD
 .media,
 .media-body {
   overflow: hidden;
@@ -5101,38 +9191,74 @@ a.thumbnail.active {
 .media-object {
   display: block;
 }
+=======
+
+>>>>>>> Update docs based on Sass
 .media-right,
 .media > .pull-right {
   padding-left: 10px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .media-left,
 .media > .pull-left {
   padding-right: 10px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .media-left,
 .media-right,
 .media-body {
   display: table-cell;
   vertical-align: top;
 }
+<<<<<<< HEAD
 .media-middle {
   vertical-align: middle;
 }
 .media-bottom {
   vertical-align: bottom;
 }
+=======
+
+.media-middle {
+  vertical-align: middle;
+}
+
+.media-bottom {
+  vertical-align: bottom;
+}
+
+>>>>>>> Update docs based on Sass
 .media-heading {
   margin-top: 0;
   margin-bottom: 5px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .media-list {
   padding-left: 0;
   list-style: none;
 }
+<<<<<<< HEAD
 .list-group {
   padding-left: 0;
   margin-bottom: 20px;
 }
+=======
+
+.list-group {
+  padding-left: 0; 
+  margin-bottom: 20px;
+}
+
+>>>>>>> Update docs based on Sass
 .list-group-item {
   position: relative;
   display: block;
@@ -5142,7 +9268,11 @@ a.thumbnail.active {
   border: 1px solid #ddd;
 }
 .list-group-item:first-child {
+<<<<<<< HEAD
   border-top-left-radius: 4px;
+=======
+  border-top-left-radius: 4px; 
+>>>>>>> Update docs based on Sass
   border-top-right-radius: 4px;
 }
 .list-group-item:last-child {
@@ -5150,18 +9280,27 @@ a.thumbnail.active {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 a.list-group-item {
   color: #555;
 }
 a.list-group-item .list-group-item-heading {
   color: #333;
 }
+<<<<<<< HEAD
 a.list-group-item:hover,
 a.list-group-item:focus {
+=======
+a.list-group-item:hover, a.list-group-item:focus {
+>>>>>>> Update docs based on Sass
   color: #555;
   text-decoration: none;
   background-color: #f5f5f5;
 }
+<<<<<<< HEAD
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
 .list-group-item.disabled:focus {
@@ -5182,12 +9321,28 @@ a.list-group-item:focus {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
+=======
+
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
+  color: #777;
+  cursor: not-allowed; 
+  background-color: #eee;
+}
+.list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading {
+  color: inherit;
+}
+.list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
+  color: #777;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+>>>>>>> Update docs based on Sass
   z-index: 2;
   color: #fff;
   background-color: #337ab7;
   border-color: #337ab7;
 }
 .list-group-item.active .list-group-item-heading,
+<<<<<<< HEAD
 .list-group-item.active:hover .list-group-item-heading,
 .list-group-item.active:focus .list-group-item-heading,
 .list-group-item.active .list-group-item-heading > small,
@@ -5203,16 +9358,35 @@ a.list-group-item:focus {
 .list-group-item.active:focus .list-group-item-text {
   color: #c7ddef;
 }
+=======
+  .list-group-item.active .list-group-item-heading > small,
+  .list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading,
+  .list-group-item.active:hover .list-group-item-heading > small,
+  .list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading,
+  .list-group-item.active:focus .list-group-item-heading > small,
+  .list-group-item.active:focus .list-group-item-heading > .small {
+  color: inherit;
+}
+.list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
+  color: #c7ddef;
+}
+
+>>>>>>> Update docs based on Sass
 .list-group-item-success {
   color: #3c763d;
   background-color: #dff0d8;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 a.list-group-item-success {
   color: #3c763d;
 }
 a.list-group-item-success .list-group-item-heading {
   color: inherit;
 }
+<<<<<<< HEAD
 a.list-group-item-success:hover,
 a.list-group-item-success:focus {
   color: #3c763d;
@@ -5221,20 +9395,36 @@ a.list-group-item-success:focus {
 a.list-group-item-success.active,
 a.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus {
+=======
+a.list-group-item-success:hover, a.list-group-item-success:focus {
+  color: #3c763d;
+  background-color: #d0e9c6;
+}
+a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #3c763d;
   border-color: #3c763d;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .list-group-item-info {
   color: #31708f;
   background-color: #d9edf7;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 a.list-group-item-info {
   color: #31708f;
 }
 a.list-group-item-info .list-group-item-heading {
   color: inherit;
 }
+<<<<<<< HEAD
 a.list-group-item-info:hover,
 a.list-group-item-info:focus {
   color: #31708f;
@@ -5243,20 +9433,36 @@ a.list-group-item-info:focus {
 a.list-group-item-info.active,
 a.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus {
+=======
+a.list-group-item-info:hover, a.list-group-item-info:focus {
+  color: #31708f;
+  background-color: #c4e3f3;
+}
+a.list-group-item-info.active, a.list-group-item-info.active:hover, a.list-group-item-info.active:focus {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #31708f;
   border-color: #31708f;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .list-group-item-warning {
   color: #8a6d3b;
   background-color: #fcf8e3;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 a.list-group-item-warning {
   color: #8a6d3b;
 }
 a.list-group-item-warning .list-group-item-heading {
   color: inherit;
 }
+<<<<<<< HEAD
 a.list-group-item-warning:hover,
 a.list-group-item-warning:focus {
   color: #8a6d3b;
@@ -5265,20 +9471,36 @@ a.list-group-item-warning:focus {
 a.list-group-item-warning.active,
 a.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus {
+=======
+a.list-group-item-warning:hover, a.list-group-item-warning:focus {
+  color: #8a6d3b;
+  background-color: #faf2cc;
+}
+a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #8a6d3b;
   border-color: #8a6d3b;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .list-group-item-danger {
   color: #a94442;
   background-color: #f2dede;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 a.list-group-item-danger {
   color: #a94442;
 }
 a.list-group-item-danger .list-group-item-heading {
   color: inherit;
 }
+<<<<<<< HEAD
 a.list-group-item-danger:hover,
 a.list-group-item-danger:focus {
   color: #a94442;
@@ -5287,18 +9509,37 @@ a.list-group-item-danger:focus {
 a.list-group-item-danger.active,
 a.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus {
+=======
+a.list-group-item-danger:hover, a.list-group-item-danger:focus {
+  color: #a94442;
+  background-color: #ebcccc;
+}
+a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
+>>>>>>> Update docs based on Sass
   color: #fff;
   background-color: #a94442;
   border-color: #a94442;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .list-group-item-heading {
   margin-top: 0;
   margin-bottom: 5px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .list-group-item-text {
   margin-bottom: 0;
   line-height: 1.3;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel {
   margin-bottom: 20px;
   background-color: #fff;
@@ -5307,6 +9548,7 @@ a.list-group-item-danger.active:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
+<<<<<<< HEAD
 .panel-body {
   padding: 15px;
 }
@@ -5314,17 +9556,40 @@ a.list-group-item-danger.active:focus {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
+=======
+
+.panel-body {
+  padding: 15px;
+}
+.panel-body:before, .panel-body:after {
+  display: table; 
+  content: " ";
+}
+.panel-body:after {
+  clear: both;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px; 
+>>>>>>> Update docs based on Sass
   border-top-right-radius: 3px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
   color: inherit;
 }
+<<<<<<< HEAD
 .panel-title > a,
 .panel-title > small,
 .panel-title > .small,
@@ -5332,6 +9597,12 @@ a.list-group-item-danger.active:focus {
 .panel-title > .small > a {
   color: inherit;
 }
+=======
+.panel-title > a {
+  color: inherit;
+}
+
+>>>>>>> Update docs based on Sass
 .panel-footer {
   padding: 10px 15px;
   background-color: #f5f5f5;
@@ -5339,16 +9610,25 @@ a.list-group-item-danger.active:focus {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {
   margin-bottom: 0;
 }
 .panel > .list-group .list-group-item,
+<<<<<<< HEAD
 .panel > .panel-collapse > .list-group .list-group-item {
+=======
+  .panel > .panel-collapse > .list-group .list-group-item {
+>>>>>>> Update docs based on Sass
   border-width: 1px 0;
   border-radius: 0;
 }
 .panel > .list-group:first-child .list-group-item:first-child,
+<<<<<<< HEAD
 .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
   border-top: 0;
   border-top-left-radius: 3px;
@@ -5356,29 +9636,57 @@ a.list-group-item-danger.active:focus {
 }
 .panel > .list-group:last-child .list-group-item:last-child,
 .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+=======
+  .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 3px; 
+  border-top-right-radius: 3px;
+}
+.panel > .list-group:last-child .list-group-item:last-child,
+  .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+>>>>>>> Update docs based on Sass
   border-bottom: 0;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
+<<<<<<< HEAD
 .panel-heading + .list-group .list-group-item:first-child {
   border-top-width: 0;
 }
 .list-group + .panel-footer {
   border-top-width: 0;
 }
+=======
+
+.panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group + .panel-footer {
+  border-top-width: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .panel > .table,
 .panel > .table-responsive > .table,
 .panel > .panel-collapse > .table {
   margin-bottom: 0;
 }
 .panel > .table caption,
+<<<<<<< HEAD
 .panel > .table-responsive > .table caption,
 .panel > .panel-collapse > .table caption {
   padding-right: 15px;
+=======
+  .panel > .table-responsive > .table caption,
+  .panel > .panel-collapse > .table caption {
+  padding-right: 15px; 
+>>>>>>> Update docs based on Sass
   padding-left: 15px;
 }
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
+<<<<<<< HEAD
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -5386,10 +9694,20 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
+=======
+  border-top-left-radius: 3px; 
+  border-top-right-radius: 3px;
+}
+.panel > .table:first-child > thead:first-child > tr:first-child,
+  .panel > .table:first-child > tbody:first-child > tr:first-child,
+  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
+>>>>>>> Update docs based on Sass
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+<<<<<<< HEAD
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
@@ -5407,6 +9725,25 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+=======
+    .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+    .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+    .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+    .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+    .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+    .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+    .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+  border-top-left-radius: 3px;
+}
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+    .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+    .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+    .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+    .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+    .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+    .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+    .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+>>>>>>> Update docs based on Sass
   border-top-right-radius: 3px;
 }
 .panel > .table:last-child,
@@ -5415,6 +9752,7 @@ a.list-group-item-danger.active:focus {
   border-bottom-left-radius: 3px;
 }
 .panel > .table:last-child > tbody:last-child > tr:last-child,
+<<<<<<< HEAD
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
@@ -5439,6 +9777,32 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+=======
+  .panel > .table:last-child > tfoot:last-child > tr:last-child,
+  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
+  border-bottom-right-radius: 3px; 
+  border-bottom-left-radius: 3px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+    .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+    .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+    .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+    .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+    .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+    .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+    .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+  border-bottom-left-radius: 3px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+    .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+    .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+    .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+    .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+    .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+    .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+    .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+>>>>>>> Update docs based on Sass
   border-bottom-right-radius: 3px;
 }
 .panel > .panel-body + .table,
@@ -5456,6 +9820,7 @@ a.list-group-item-danger.active:focus {
   border: 0;
 }
 .panel > .table-bordered > thead > tr > th:first-child,
+<<<<<<< HEAD
 .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
 .panel > .table-bordered > tbody > tr > th:first-child,
 .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
@@ -5507,6 +9872,60 @@ a.list-group-item-danger.active:focus {
   margin-bottom: 0;
   border: 0;
 }
+=======
+  .panel > .table-bordered > thead > tr > td:first-child,
+  .panel > .table-bordered > tbody > tr > th:first-child,
+  .panel > .table-bordered > tbody > tr > td:first-child,
+  .panel > .table-bordered > tfoot > tr > th:first-child,
+  .panel > .table-bordered > tfoot > tr > td:first-child,
+  .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+.panel > .table-bordered > thead > tr > th:last-child,
+  .panel > .table-bordered > thead > tr > td:last-child,
+  .panel > .table-bordered > tbody > tr > th:last-child,
+  .panel > .table-bordered > tbody > tr > td:last-child,
+  .panel > .table-bordered > tfoot > tr > th:last-child,
+  .panel > .table-bordered > tfoot > tr > td:last-child,
+  .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+.panel > .table-bordered > thead > tr:first-child > td,
+  .panel > .table-bordered > thead > tr:first-child > th,
+  .panel > .table-bordered > tbody > tr:first-child > td,
+  .panel > .table-bordered > tbody > tr:first-child > th,
+  .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+  .panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+  .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+  .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+  border-bottom: 0;
+}
+.panel > .table-bordered > tbody > tr:last-child > td,
+  .panel > .table-bordered > tbody > tr:last-child > th,
+  .panel > .table-bordered > tfoot > tr:last-child > td,
+  .panel > .table-bordered > tfoot > tr:last-child > th,
+  .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+  .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+  border-bottom: 0;
+}
+.panel > .table-responsive {
+  margin-bottom: 0; 
+  border: 0;
+}
+
+>>>>>>> Update docs based on Sass
 .panel-group {
   margin-bottom: 20px;
 }
@@ -5521,7 +9940,11 @@ a.list-group-item-danger.active:focus {
   border-bottom: 0;
 }
 .panel-group .panel-heading + .panel-collapse > .panel-body,
+<<<<<<< HEAD
 .panel-group .panel-heading + .panel-collapse > .list-group {
+=======
+    .panel-group .panel-heading + .panel-collapse > .list-group {
+>>>>>>> Update docs based on Sass
   border-top: 1px solid #ddd;
 }
 .panel-group .panel-footer {
@@ -5530,6 +9953,10 @@ a.list-group-item-danger.active:focus {
 .panel-group .panel-footer + .panel-collapse .panel-body {
   border-bottom: 1px solid #ddd;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel-default {
   border-color: #ddd;
 }
@@ -5548,6 +9975,10 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ddd;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel-primary {
   border-color: #337ab7;
 }
@@ -5566,6 +9997,10 @@ a.list-group-item-danger.active:focus {
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #337ab7;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel-success {
   border-color: #d6e9c6;
 }
@@ -5584,6 +10019,10 @@ a.list-group-item-danger.active:focus {
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #d6e9c6;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel-info {
   border-color: #bce8f1;
 }
@@ -5602,6 +10041,10 @@ a.list-group-item-danger.active:focus {
 .panel-info > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #bce8f1;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel-warning {
   border-color: #faebcc;
 }
@@ -5620,6 +10063,10 @@ a.list-group-item-danger.active:focus {
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #faebcc;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .panel-danger {
   border-color: #ebccd1;
 }
@@ -5638,6 +10085,10 @@ a.list-group-item-danger.active:focus {
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .embed-responsive {
   position: relative;
   display: block;
@@ -5646,10 +10097,17 @@ a.list-group-item-danger.active:focus {
   overflow: hidden;
 }
 .embed-responsive .embed-responsive-item,
+<<<<<<< HEAD
 .embed-responsive iframe,
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
+=======
+  .embed-responsive iframe,
+  .embed-responsive embed,
+  .embed-responsive object,
+  .embed-responsive video {
+>>>>>>> Update docs based on Sass
   position: absolute;
   top: 0;
   bottom: 0;
@@ -5664,6 +10122,10 @@ a.list-group-item-danger.active:focus {
 .embed-responsive.embed-responsive-4by3 {
   padding-bottom: 75%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .well {
   min-height: 20px;
   padding: 19px;
@@ -5678,14 +10140,26 @@ a.list-group-item-danger.active:focus {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, .15);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .well-lg {
   padding: 24px;
   border-radius: 6px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .well-sm {
   padding: 9px;
   border-radius: 3px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .close {
   float: right;
   font-size: 21px;
@@ -5693,6 +10167,7 @@ a.list-group-item-danger.active:focus {
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
+<<<<<<< HEAD
   filter: alpha(opacity=20);
   opacity: .2;
 }
@@ -5706,14 +10181,37 @@ a.list-group-item-danger.active:focus {
 }
 button.close {
   -webkit-appearance: none;
+=======
+  filter: alpha(opacity=20); 
+  opacity: .2;
+}
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50); 
+  opacity: .5;
+}
+
+button.close {
+  -webkit-appearance: none; 
+>>>>>>> Update docs based on Sass
   padding: 0;
   cursor: pointer;
   background: transparent;
   border: 0;
 }
+<<<<<<< HEAD
 .modal-open {
   overflow: hidden;
 }
+=======
+
+.modal-open {
+  overflow: hidden;
+}
+
+>>>>>>> Update docs based on Sass
 .modal {
   position: fixed;
   top: 0;
@@ -5729,7 +10227,11 @@ button.close {
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
        -o-transition:      -o-transform .3s ease-out;
+<<<<<<< HEAD
           transition:         transform .3s ease-out;
+=======
+          transition:         transform .3s ease-out; 
+>>>>>>> Update docs based on Sass
   -webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
        -o-transform: translate(0, -25%);
@@ -5741,15 +10243,27 @@ button.close {
        -o-transform: translate(0, 0);
           transform: translate(0, 0);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .modal-dialog {
   position: relative;
   width: auto;
   margin: 10px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .modal-content {
   position: relative;
   background-color: #fff;
@@ -5758,10 +10272,18 @@ button.close {
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
   border-radius: 6px;
+<<<<<<< HEAD
   outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
+=======
+  outline: 0; 
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+>>>>>>> Update docs based on Sass
 .modal-backdrop {
   position: absolute;
   top: 0;
@@ -5770,6 +10292,7 @@ button.close {
   background-color: #000;
 }
 .modal-backdrop.fade {
+<<<<<<< HEAD
   filter: alpha(opacity=0);
   opacity: 0;
 }
@@ -5789,17 +10312,58 @@ button.close {
   margin: 0;
   line-height: 1.42857143;
 }
+=======
+  filter: alpha(opacity=0); 
+  opacity: 0;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50); 
+  opacity: .5;
+}
+
+.modal-header {
+  min-height: 16.42857px; 
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-header .close {
+  margin-top: -2px;
+}
+
+.modal-title {
+  margin: 0;
+  line-height: 1.42857;
+}
+
+>>>>>>> Update docs based on Sass
 .modal-body {
   position: relative;
   padding: 15px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .modal-footer {
   padding: 15px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
+<<<<<<< HEAD
 .modal-footer .btn + .btn {
   margin-bottom: 0;
+=======
+.modal-footer:before, .modal-footer:after {
+  display: table; 
+  content: " ";
+}
+.modal-footer:after {
+  clear: both;
+}
+.modal-footer .btn + .btn {
+  margin-bottom: 0; 
+>>>>>>> Update docs based on Sass
   margin-left: 5px;
 }
 .modal-footer .btn-group .btn + .btn {
@@ -5808,6 +10372,10 @@ button.close {
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -5815,15 +10383,27 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   .modal-sm {
     width: 300px;
   }
@@ -5842,6 +10422,7 @@ button.close {
   font-weight: normal;
   line-height: 1.4;
   visibility: visible;
+<<<<<<< HEAD
   filter: alpha(opacity=0);
   opacity: 0;
 }
@@ -5865,6 +10446,32 @@ button.close {
   padding: 0 5px;
   margin-left: -3px;
 }
+=======
+  filter: alpha(opacity=0); 
+  opacity: 0;
+}
+.tooltip.in {
+  filter: alpha(opacity=90); 
+  opacity: .9;
+}
+.tooltip.top {
+  padding: 5px 0; 
+  margin-top: -3px;
+}
+.tooltip.right {
+  padding: 0 5px; 
+  margin-left: 3px;
+}
+.tooltip.bottom {
+  padding: 5px 0; 
+  margin-top: 3px;
+}
+.tooltip.left {
+  padding: 0 5px; 
+  margin-left: -3px;
+}
+
+>>>>>>> Update docs based on Sass
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
@@ -5874,6 +10481,10 @@ button.close {
   background-color: #000;
   border-radius: 4px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -5881,6 +10492,10 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
@@ -5937,6 +10552,10 @@ button.close {
   border-width: 0 5px 5px;
   border-bottom-color: #000;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .popover {
   position: absolute;
   top: 0;
@@ -5948,9 +10567,15 @@ button.close {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
+<<<<<<< HEAD
   line-height: 1.42857143;
   text-align: left;
   white-space: normal;
+=======
+  line-height: 1.42857;
+  text-align: left;
+  white-space: normal; 
+>>>>>>> Update docs based on Sass
   background-color: #fff;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
@@ -5972,6 +10597,10 @@ button.close {
 .popover.left {
   margin-left: -10px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .popover-title {
   padding: 8px 14px;
   margin: 0;
@@ -5980,11 +10609,20 @@ button.close {
   border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0;
 }
+<<<<<<< HEAD
 .popover-content {
   padding: 9px 14px;
 }
 .popover > .arrow,
 .popover > .arrow:after {
+=======
+
+.popover-content {
+  padding: 9px 14px;
+}
+
+.popover > .arrow, .popover > .arrow:after {
+>>>>>>> Update docs based on Sass
   position: absolute;
   display: block;
   width: 0;
@@ -5992,6 +10630,7 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
+<<<<<<< HEAD
 .popover > .arrow {
   border-width: 11px;
 }
@@ -6001,6 +10640,20 @@ button.close {
 }
 .popover.top > .arrow {
   bottom: -11px;
+=======
+
+.popover > .arrow {
+  border-width: 11px;
+}
+
+.popover > .arrow:after {
+  content: ""; 
+  border-width: 10px;
+}
+
+.popover.top > .arrow {
+  bottom: -11px; 
+>>>>>>> Update docs based on Sass
   left: 50%;
   margin-left: -11px;
   border-top-color: #999;
@@ -6011,7 +10664,11 @@ button.close {
   bottom: 1px;
   margin-left: -10px;
   content: " ";
+<<<<<<< HEAD
   border-top-color: #fff;
+=======
+  border-top-color: #fff; 
+>>>>>>> Update docs based on Sass
   border-bottom-width: 0;
 }
 .popover.right > .arrow {
@@ -6019,18 +10676,30 @@ button.close {
   left: -11px;
   margin-top: -11px;
   border-right-color: #999;
+<<<<<<< HEAD
   border-right-color: rgba(0, 0, 0, .25);
+=======
+  border-right-color: rgba(0, 0, 0, .25); 
+>>>>>>> Update docs based on Sass
   border-left-width: 0;
 }
 .popover.right > .arrow:after {
   bottom: -10px;
   left: 1px;
   content: " ";
+<<<<<<< HEAD
   border-right-color: #fff;
   border-left-width: 0;
 }
 .popover.bottom > .arrow {
   top: -11px;
+=======
+  border-right-color: #fff; 
+  border-left-width: 0;
+}
+.popover.bottom > .arrow {
+  top: -11px; 
+>>>>>>> Update docs based on Sass
   left: 50%;
   margin-left: -11px;
   border-top-width: 0;
@@ -6054,17 +10723,32 @@ button.close {
 }
 .popover.left > .arrow:after {
   right: 1px;
+<<<<<<< HEAD
   bottom: -10px;
+=======
+  bottom: -10px; 
+>>>>>>> Update docs based on Sass
   content: " ";
   border-right-width: 0;
   border-left-color: #fff;
 }
+<<<<<<< HEAD
 .carousel {
   position: relative;
 }
 .carousel-inner {
   position: relative;
   width: 100%;
+=======
+
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%; 
+>>>>>>> Update docs based on Sass
   overflow: hidden;
 }
 .carousel-inner > .item {
@@ -6075,7 +10759,14 @@ button.close {
           transition: .6s ease-in-out left;
 }
 .carousel-inner > .item > img,
+<<<<<<< HEAD
 .carousel-inner > .item > a > img {
+=======
+    .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+>>>>>>> Update docs based on Sass
   line-height: 1;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -6089,6 +10780,7 @@ button.close {
     -webkit-perspective: 1000;
             perspective: 1000;
   }
+<<<<<<< HEAD
   .carousel-inner > .item.next,
   .carousel-inner > .item.active.right {
     left: 0;
@@ -6105,20 +10797,43 @@ button.close {
   .carousel-inner > .item.prev.right,
   .carousel-inner > .item.active {
     left: 0;
+=======
+  .carousel-inner > .item.next, .carousel-inner > .item.active.right {
+    left: 0; 
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  .carousel-inner > .item.prev, .carousel-inner > .item.active.left {
+    left: 0; 
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+  .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
+    left: 0; 
+>>>>>>> Update docs based on Sass
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
   }
 }
 .carousel-inner > .active,
+<<<<<<< HEAD
 .carousel-inner > .next,
 .carousel-inner > .prev {
+=======
+  .carousel-inner > .next,
+  .carousel-inner > .prev {
+>>>>>>> Update docs based on Sass
   display: block;
 }
 .carousel-inner > .active {
   left: 0;
 }
 .carousel-inner > .next,
+<<<<<<< HEAD
 .carousel-inner > .prev {
+=======
+  .carousel-inner > .prev {
+>>>>>>> Update docs based on Sass
   position: absolute;
   top: 0;
   width: 100%;
@@ -6130,7 +10845,11 @@ button.close {
   left: -100%;
 }
 .carousel-inner > .next.left,
+<<<<<<< HEAD
 .carousel-inner > .prev.right {
+=======
+  .carousel-inner > .prev.right {
+>>>>>>> Update docs based on Sass
   left: 0;
 }
 .carousel-inner > .active.left {
@@ -6139,6 +10858,10 @@ button.close {
 .carousel-inner > .active.right {
   left: 100%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .carousel-control {
   position: absolute;
   top: 0;
@@ -6148,7 +10871,11 @@ button.close {
   font-size: 20px;
   color: #fff;
   text-align: center;
+<<<<<<< HEAD
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+=======
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6); 
+>>>>>>> Update docs based on Sass
   filter: alpha(opacity=50);
   opacity: .5;
 }
@@ -6157,7 +10884,11 @@ button.close {
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
   background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+<<<<<<< HEAD
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+=======
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); 
+>>>>>>> Update docs based on Sass
   background-repeat: repeat-x;
 }
 .carousel-control.right {
@@ -6167,6 +10898,7 @@ button.close {
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
   background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+<<<<<<< HEAD
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x;
 }
@@ -6175,35 +10907,65 @@ button.close {
   color: #fff;
   text-decoration: none;
   filter: alpha(opacity=90);
+=======
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); 
+  background-repeat: repeat-x;
+}
+.carousel-control:hover, .carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  filter: alpha(opacity=90); 
+>>>>>>> Update docs based on Sass
   outline: 0;
   opacity: .9;
 }
 .carousel-control .icon-prev,
+<<<<<<< HEAD
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
+=======
+  .carousel-control .icon-next,
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right {
+>>>>>>> Update docs based on Sass
   position: absolute;
   top: 50%;
   z-index: 5;
   display: inline-block;
 }
 .carousel-control .icon-prev,
+<<<<<<< HEAD
 .carousel-control .glyphicon-chevron-left {
+=======
+  .carousel-control .glyphicon-chevron-left {
+>>>>>>> Update docs based on Sass
   left: 50%;
   margin-left: -10px;
 }
 .carousel-control .icon-next,
+<<<<<<< HEAD
 .carousel-control .glyphicon-chevron-right {
+=======
+  .carousel-control .glyphicon-chevron-right {
+>>>>>>> Update docs based on Sass
   right: 50%;
   margin-right: -10px;
 }
 .carousel-control .icon-prev,
+<<<<<<< HEAD
 .carousel-control .icon-next {
+=======
+  .carousel-control .icon-next {
+>>>>>>> Update docs based on Sass
   width: 20px;
   height: 20px;
   margin-top: -10px;
   font-family: serif;
+<<<<<<< HEAD
   line-height: 1;
+=======
+>>>>>>> Update docs based on Sass
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -6211,6 +10973,10 @@ button.close {
 .carousel-control .icon-next:before {
   content: '\203a';
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
@@ -6219,7 +10985,11 @@ button.close {
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
+<<<<<<< HEAD
   text-align: center;
+=======
+  text-align: center; 
+>>>>>>> Update docs based on Sass
   list-style: none;
 }
 .carousel-indicators li {
@@ -6230,7 +11000,11 @@ button.close {
   text-indent: -999px;
   cursor: pointer;
   background-color: #000 \9;
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0);
+=======
+  background-color: transparent; 
+>>>>>>> Update docs based on Sass
   border: 1px solid #fff;
   border-radius: 10px;
 }
@@ -6240,6 +11014,10 @@ button.close {
   margin: 0;
   background-color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .carousel-caption {
   position: absolute;
   right: 15%;
@@ -6255,6 +11033,10 @@ button.close {
 .carousel-caption .btn {
   text-shadow: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -6273,15 +11055,24 @@ button.close {
   .carousel-control .icon-next {
     margin-right: -15px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   .carousel-caption {
     right: 20%;
     left: 20%;
     padding-bottom: 30px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
   .carousel-indicators {
     bottom: 20px;
   }
 }
+<<<<<<< HEAD
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
@@ -6352,6 +11143,42 @@ button.close {
 .invisible {
   visibility: hidden;
 }
+=======
+.clearfix:before, .clearfix:after {
+  display: table; 
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto; 
+  margin-left: auto;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+>>>>>>> Update docs based on Sass
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -6359,10 +11186,15 @@ button.close {
   background-color: transparent;
   border: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .hidden {
   display: none !important;
   visibility: hidden !important;
 }
+<<<<<<< HEAD
 .affix {
   position: fixed;
 }
@@ -6375,6 +11207,20 @@ button.close {
 .visible-lg {
   display: none !important;
 }
+=======
+
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+.visible-xs, .visible-sm, .visible-md, .visible-lg {
+  display: none !important;
+}
+
+>>>>>>> Update docs based on Sass
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -6389,16 +11235,32 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (max-width: 767px) {
   .visible-xs {
     display: block !important;
   }
+<<<<<<< HEAD
   table.visible-xs {
     display: table;
   }
   tr.visible-xs {
     display: table-row !important;
   }
+=======
+
+  table.visible-xs {
+    display: table;
+  }
+
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+>>>>>>> Update docs based on Sass
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
@@ -6409,26 +11271,50 @@ button.close {
     display: block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (max-width: 767px) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (max-width: 767px) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
     display: block !important;
   }
+<<<<<<< HEAD
   table.visible-sm {
     display: table;
   }
   tr.visible-sm {
     display: table-row !important;
   }
+=======
+
+  table.visible-sm {
+    display: table;
+  }
+
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+>>>>>>> Update docs based on Sass
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
@@ -6439,26 +11325,50 @@ button.close {
     display: block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline {
     display: inline !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
     display: block !important;
   }
+<<<<<<< HEAD
   table.visible-md {
     display: table;
   }
   tr.visible-md {
     display: table-row !important;
   }
+=======
+
+  table.visible-md {
+    display: table;
+  }
+
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+>>>>>>> Update docs based on Sass
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
@@ -6469,26 +11379,50 @@ button.close {
     display: block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline {
     display: inline !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 1200px) {
   .visible-lg {
     display: block !important;
   }
+<<<<<<< HEAD
   table.visible-lg {
     display: table;
   }
   tr.visible-lg {
     display: table-row !important;
   }
+=======
+
+  table.visible-lg {
+    display: table;
+  }
+
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+>>>>>>> Update docs based on Sass
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
@@ -6499,16 +11433,28 @@ button.close {
     display: block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 1200px) {
   .visible-lg-inline {
     display: inline !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (min-width: 1200px) {
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
@@ -6532,16 +11478,32 @@ button.close {
 .visible-print {
   display: none !important;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media print {
   .visible-print {
     display: block !important;
   }
+<<<<<<< HEAD
   table.visible-print {
     display: table;
   }
   tr.visible-print {
     display: table-row !important;
   }
+=======
+
+  table.visible-print {
+    display: table;
+  }
+
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+>>>>>>> Update docs based on Sass
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
@@ -6555,6 +11517,10 @@ button.close {
     display: block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .visible-print-inline {
   display: none !important;
 }
@@ -6563,6 +11529,10 @@ button.close {
     display: inline !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 .visible-print-inline-block {
   display: none !important;
 }
@@ -6571,9 +11541,17 @@ button.close {
     display: inline-block !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 @media print {
   .hidden-print {
     display: none !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update docs based on Sass
 /*# sourceMappingURL=bootstrap.css.map */
