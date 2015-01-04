@@ -1,3 +1,6 @@
+#BIG WARN: not yet there and WIP
+It breaks couple of things - at the moment Sass translation fails original CSS lint tests - the bootstrap-sass has no CSS tests at all :( - and Sass paths are incorrect.
+
 # [Bootstrap](http://getbootstrap.com)
 ![Bower version](https://img.shields.io/bower/v/bootstrap.svg?style=flat)
 [![npm version](https://img.shields.io/npm/v/bootstrap.svg?style=flat)](https://www.npmjs.com/package/bootstrap)
