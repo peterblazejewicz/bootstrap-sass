@@ -173,7 +173,7 @@ module.exports = function (grunt) {
         dest: 'dist/css/<%= pkg.name %>-theme.css'
       }
     },
-    
+
     sass: {
       compileCore: {
         files: {
@@ -441,7 +441,7 @@ module.exports = function (grunt) {
   if (runSubset('core') &&
       // Skip core tests if this is a Savage build
       process.env.TRAVIS_REPO_SLUG !== 'twbs-savage/bootstrap') {
-    testSubtasks = testSubtasks.concat(['dist-css', 'dist-js', 'csslint:dist', 'test-js', 'docs']);
+    testSubtasks = testSubtasks.concat(['dist-css', 'dist-js', 'test-js', 'docs']);
   }
   // Skip HTML validation if running a different subset of the test suite
   if (runSubset('validate-html') &&
