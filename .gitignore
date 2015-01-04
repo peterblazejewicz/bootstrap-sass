@@ -21,6 +21,7 @@ _site
 .DS_Store
 .idea
 .project
+.sass-cache
 .settings
 .tmproj
 *.esproj
